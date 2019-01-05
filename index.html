@@ -1,0 +1,4968 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_5d3bccce8d9545059a7011c7c3925928 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_5d3bccce8d9545059a7011c7c3925928" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_5d3bccce8d9545059a7011c7c3925928 = L.map(
+        'map_5d3bccce8d9545059a7011c7c3925928', {
+        center: [38.4237, 27.1428],
+        zoom: 5,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: true,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_ecef46cda2c1476b87939089cb5b38f5 = L.tileLayer(
+        'https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 3,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_5d3bccce8d9545059a7011c7c3925928);
+    
+            var marker_cluster_2234b86efe154b7183c6ab3de9157cd0 = L.markerClusterGroup({});
+            map_5d3bccce8d9545059a7011c7c3925928.addLayer(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+            
+    
+        var marker_b00f30d382774403960d69b79179a946 = L.marker(
+            [41.321727, 19.792639],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_d90ba5daee7343e2814a16af23767d21 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b00f30d382774403960d69b79179a946.setIcon(icon_d90ba5daee7343e2814a16af23767d21);
+            
+    
+            var popup_528abe9207bf4bcf92ff929f49214b92 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f3ad5082b95c4c2ebafd70d2bf2a19e6 = $(`<div id="html_f3ad5082b95c4c2ebafd70d2bf2a19e6" style="width: 100.0%; height: 100.0%;">Albania<br> OES DISTRIMED<br> <a href=http://www.oesdistrimed.com/english/contact.html>Website</a></div>`)[0];
+                popup_528abe9207bf4bcf92ff929f49214b92.setContent(html_f3ad5082b95c4c2ebafd70d2bf2a19e6);
+            
+
+            marker_b00f30d382774403960d69b79179a946.bindPopup(popup_528abe9207bf4bcf92ff929f49214b92)
+            ;
+
+            
+        
+    
+        var marker_7fe51df530ce42cfa50080f66c931021 = L.marker(
+            [-17.784044, -63.172915],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_2ad56b780b884898bdb3d424d9d06c6e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7fe51df530ce42cfa50080f66c931021.setIcon(icon_2ad56b780b884898bdb3d424d9d06c6e);
+            
+    
+            var popup_e493389565524f218bfacdefbfa15b87 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d14d2433fbb34d1c8bc6b1e0d764a868 = $(`<div id="html_d14d2433fbb34d1c8bc6b1e0d764a868" style="width: 100.0%; height: 100.0%;">Bolivia, Plurinational State of<br> MAGNAMEDICA<br> <a href=https://www.magnamedica.net/index.php/nuestros-productos>Website</a></div>`)[0];
+                popup_e493389565524f218bfacdefbfa15b87.setContent(html_d14d2433fbb34d1c8bc6b1e0d764a868);
+            
+
+            marker_7fe51df530ce42cfa50080f66c931021.bindPopup(popup_e493389565524f218bfacdefbfa15b87)
+            ;
+
+            
+        
+    
+        var marker_8d06977c90d644f78f9e8b0df8b5b7f7 = L.marker(
+            [44.797337, 17.208599],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_cde3352f757449268b1581b283f5ed01 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8d06977c90d644f78f9e8b0df8b5b7f7.setIcon(icon_cde3352f757449268b1581b283f5ed01);
+            
+    
+            var popup_f8b14cca629142da822f533f741d69ac = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_06e988f836cb4dec9082256f32d06865 = $(`<div id="html_06e988f836cb4dec9082256f32d06865" style="width: 100.0%; height: 100.0%;">Bosnia and Herzegovina<br> Krajinalijek a.d.<br> <a href=http://www.krajinalijek.org/index.html>Website</a></div>`)[0];
+                popup_f8b14cca629142da822f533f741d69ac.setContent(html_06e988f836cb4dec9082256f32d06865);
+            
+
+            marker_8d06977c90d644f78f9e8b0df8b5b7f7.bindPopup(popup_f8b14cca629142da822f533f741d69ac)
+            ;
+
+            
+        
+    
+        var marker_0185430d79864d22a8668d354189ea40 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_60aa006cd31c4edb88b6f11f5eae16ec = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0185430d79864d22a8668d354189ea40.setIcon(icon_60aa006cd31c4edb88b6f11f5eae16ec);
+            
+    
+            var popup_695d36e4166445e9831bcb5fcd062f91 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_be38e08010ad44b0ba719d8f2c14a5ed = $(`<div id="html_be38e08010ad44b0ba719d8f2c14a5ed" style="width: 100.0%; height: 100.0%;">Brazil<br> Grupo Perla Tenda<br> <a href=www.grupoperlatenda.com>Website</a></div>`)[0];
+                popup_695d36e4166445e9831bcb5fcd062f91.setContent(html_be38e08010ad44b0ba719d8f2c14a5ed);
+            
+
+            marker_0185430d79864d22a8668d354189ea40.bindPopup(popup_695d36e4166445e9831bcb5fcd062f91)
+            ;
+
+            
+        
+    
+        var marker_530d3df4cd5541c2ab4757b01c47d680 = L.marker(
+            [42.698240000000006, 23.275554999999997],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_94ea7c8647c443c29a215c2984a8d4ff = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_530d3df4cd5541c2ab4757b01c47d680.setIcon(icon_94ea7c8647c443c29a215c2984a8d4ff);
+            
+    
+            var popup_73f7228ceda5451eb04ec2a2a49ee120 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d552280e3f4547cca67fd4ba584537cd = $(`<div id="html_d552280e3f4547cca67fd4ba584537cd" style="width: 100.0%; height: 100.0%;">Bulgaria<br> 3 med<br> <a href=https://3med.net/>Website</a></div>`)[0];
+                popup_73f7228ceda5451eb04ec2a2a49ee120.setContent(html_d552280e3f4547cca67fd4ba584537cd);
+            
+
+            marker_530d3df4cd5541c2ab4757b01c47d680.bindPopup(popup_73f7228ceda5451eb04ec2a2a49ee120)
+            ;
+
+            
+        
+    
+        var marker_309adf46c0b845798a3365c4e7d851ec = L.marker(
+            [42.644144, 23.378446],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_9053564b37cc4d68aea65bab1d502628 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_309adf46c0b845798a3365c4e7d851ec.setIcon(icon_9053564b37cc4d68aea65bab1d502628);
+            
+    
+            var popup_4e744d2cf4bc42adaf266e928e7d25c7 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5a3f3653a3734f95b29c6931b8bd96e8 = $(`<div id="html_5a3f3653a3734f95b29c6931b8bd96e8" style="width: 100.0%; height: 100.0%;">Bulgaria<br> Agarta<br> <a href=https://agarta.bg>Website</a></div>`)[0];
+                popup_4e744d2cf4bc42adaf266e928e7d25c7.setContent(html_5a3f3653a3734f95b29c6931b8bd96e8);
+            
+
+            marker_309adf46c0b845798a3365c4e7d851ec.bindPopup(popup_4e744d2cf4bc42adaf266e928e7d25c7)
+            ;
+
+            
+        
+    
+        var marker_eb81fbe2d50a4046ba36d69a7e6e3b6c = L.marker(
+            [42.687701000000004, 23.302526],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_d617bc317d2d48fb82a3d65d37cce435 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_eb81fbe2d50a4046ba36d69a7e6e3b6c.setIcon(icon_d617bc317d2d48fb82a3d65d37cce435);
+            
+    
+            var popup_3c98ea0868614284a482a9373d737242 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_834de0e8080b43dab381149ff2c00096 = $(`<div id="html_834de0e8080b43dab381149ff2c00096" style="width: 100.0%; height: 100.0%;">Bulgaria<br> Alned<br> <a href=http://www.alned.com/>Website</a></div>`)[0];
+                popup_3c98ea0868614284a482a9373d737242.setContent(html_834de0e8080b43dab381149ff2c00096);
+            
+
+            marker_eb81fbe2d50a4046ba36d69a7e6e3b6c.bindPopup(popup_3c98ea0868614284a482a9373d737242)
+            ;
+
+            
+        
+    
+        var marker_64146edc062e40dba61246eec90a6432 = L.marker(
+            [42.691427000000004, 23.294598999999998],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_2785d404590448159516f4a42fe1ae02 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_64146edc062e40dba61246eec90a6432.setIcon(icon_2785d404590448159516f4a42fe1ae02);
+            
+    
+            var popup_cb4598b78b6f4644aff66dcc6de920c9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9b23e07c5a8f4f5bb7e61634f71422e0 = $(`<div id="html_9b23e07c5a8f4f5bb7e61634f71422e0" style="width: 100.0%; height: 100.0%;">Bulgaria<br> Bulmar ML<br> <a href=http://bulmarml.bg>Website</a></div>`)[0];
+                popup_cb4598b78b6f4644aff66dcc6de920c9.setContent(html_9b23e07c5a8f4f5bb7e61634f71422e0);
+            
+
+            marker_64146edc062e40dba61246eec90a6432.bindPopup(popup_cb4598b78b6f4644aff66dcc6de920c9)
+            ;
+
+            
+        
+    
+        var marker_81bb5253f85a493da539b4e85bb42466 = L.marker(
+            [42.676417, 23.288977],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_133d278182264a818f5a0fa1deacd910 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_81bb5253f85a493da539b4e85bb42466.setIcon(icon_133d278182264a818f5a0fa1deacd910);
+            
+    
+            var popup_6b834ad2d7764f33a6a2c1438d41dfa0 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9f4bbf3eea5a4bdd993ecfd950b99743 = $(`<div id="html_9f4bbf3eea5a4bdd993ecfd950b99743" style="width: 100.0%; height: 100.0%;">Bulgaria<br> Bulmed 2000 Ltd.<br> <a href=http://www.bulmed2000-bg.com/>Website</a></div>`)[0];
+                popup_6b834ad2d7764f33a6a2c1438d41dfa0.setContent(html_9f4bbf3eea5a4bdd993ecfd950b99743);
+            
+
+            marker_81bb5253f85a493da539b4e85bb42466.bindPopup(popup_6b834ad2d7764f33a6a2c1438d41dfa0)
+            ;
+
+            
+        
+    
+        var marker_461ef4daa6b14338885794f86c481825 = L.marker(
+            [42.680403000000005, 23.287836],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_6a1e8851d3f14162bfb73aba5c66e727 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_461ef4daa6b14338885794f86c481825.setIcon(icon_6a1e8851d3f14162bfb73aba5c66e727);
+            
+    
+            var popup_ab5d5e1b12ad41d4ae7737bfd9799181 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_303b3dfd7a6c49aa9ee345aced8125d3 = $(`<div id="html_303b3dfd7a6c49aa9ee345aced8125d3" style="width: 100.0%; height: 100.0%;">Bulgaria<br> Chim Trade<br> <a href=http://chimtrade.info>Website</a></div>`)[0];
+                popup_ab5d5e1b12ad41d4ae7737bfd9799181.setContent(html_303b3dfd7a6c49aa9ee345aced8125d3);
+            
+
+            marker_461ef4daa6b14338885794f86c481825.bindPopup(popup_ab5d5e1b12ad41d4ae7737bfd9799181)
+            ;
+
+            
+        
+    
+        var marker_ed8c5f44243b4300836d2daea22a4e00 = L.marker(
+            [43.220151, 27.881],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_3be95b13510d40ee8fc0ebaf7470de7e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ed8c5f44243b4300836d2daea22a4e00.setIcon(icon_3be95b13510d40ee8fc0ebaf7470de7e);
+            
+    
+            var popup_1eb4a53d82c445c0a3f6e39f6cb7b0b8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0e7ba55034764e4798473be762ff7006 = $(`<div id="html_0e7ba55034764e4798473be762ff7006" style="width: 100.0%; height: 100.0%;">Bulgaria<br> Chimtex<br> <a href=http://www.chimtex.com>Website</a></div>`)[0];
+                popup_1eb4a53d82c445c0a3f6e39f6cb7b0b8.setContent(html_0e7ba55034764e4798473be762ff7006);
+            
+
+            marker_ed8c5f44243b4300836d2daea22a4e00.bindPopup(popup_1eb4a53d82c445c0a3f6e39f6cb7b0b8)
+            ;
+
+            
+        
+    
+        var marker_fb72b57625ee4a87a0756c307b3aec8e = L.marker(
+            [42.665801, 23.269918],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_5365f36b36824e2ba095af638851ab8b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fb72b57625ee4a87a0756c307b3aec8e.setIcon(icon_5365f36b36824e2ba095af638851ab8b);
+            
+    
+            var popup_688aadd105f844ecab3ba3cb35190e42 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c019c4f2c7b84be097ad9a5257b283d9 = $(`<div id="html_c019c4f2c7b84be097ad9a5257b283d9" style="width: 100.0%; height: 100.0%;">Bulgaria<br> Ecos Medica Ltd<br> <a href=www.ecosmedica.com>Website</a></div>`)[0];
+                popup_688aadd105f844ecab3ba3cb35190e42.setContent(html_c019c4f2c7b84be097ad9a5257b283d9);
+            
+
+            marker_fb72b57625ee4a87a0756c307b3aec8e.bindPopup(popup_688aadd105f844ecab3ba3cb35190e42)
+            ;
+
+            
+        
+    
+        var marker_03ce6659fe9e472193932f70090a47b9 = L.marker(
+            [42.705834, 23.289522],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_a618c342b4824999a935348a99628593 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_03ce6659fe9e472193932f70090a47b9.setIcon(icon_a618c342b4824999a935348a99628593);
+            
+    
+            var popup_035d6495a6c648708b4c693546b0f417 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_851ce72976b245dc988bd39b7f16681b = $(`<div id="html_851ce72976b245dc988bd39b7f16681b" style="width: 100.0%; height: 100.0%;">Bulgaria<br> Helmed<br> <a href=https://helmedbg.com>Website</a></div>`)[0];
+                popup_035d6495a6c648708b4c693546b0f417.setContent(html_851ce72976b245dc988bd39b7f16681b);
+            
+
+            marker_03ce6659fe9e472193932f70090a47b9.bindPopup(popup_035d6495a6c648708b4c693546b0f417)
+            ;
+
+            
+        
+    
+        var marker_b842180eb5084faea07d396ba2dbbfbd = L.marker(
+            [42.705220000000004, 23.334383],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_797f250eeeb34f3d8b7aa6ca47eeb630 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b842180eb5084faea07d396ba2dbbfbd.setIcon(icon_797f250eeeb34f3d8b7aa6ca47eeb630);
+            
+    
+            var popup_f37d0021774841bb9546d74ed8ebc9f5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_cabd956c00e8411ba2481c37f0b8df87 = $(`<div id="html_cabd956c00e8411ba2481c37f0b8df87" style="width: 100.0%; height: 100.0%;">Bulgaria<br> Inter Business Ltd 91<br> <a href=www.interbusiness-bg.com>Website</a></div>`)[0];
+                popup_f37d0021774841bb9546d74ed8ebc9f5.setContent(html_cabd956c00e8411ba2481c37f0b8df87);
+            
+
+            marker_b842180eb5084faea07d396ba2dbbfbd.bindPopup(popup_f37d0021774841bb9546d74ed8ebc9f5)
+            ;
+
+            
+        
+    
+        var marker_0cf09eae6aab4a6b9b710925ca60ac16 = L.marker(
+            [43.217596, 27.916414000000003],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_1e0e499aaa6543198c29fd01c7cb25a3 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0cf09eae6aab4a6b9b710925ca60ac16.setIcon(icon_1e0e499aaa6543198c29fd01c7cb25a3);
+            
+    
+            var popup_9c31837e20b643b78e280eb2f55bcb40 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e89ca22565c74ce298efea4f2635f56b = $(`<div id="html_e89ca22565c74ce298efea4f2635f56b" style="width: 100.0%; height: 100.0%;">Bulgaria<br> Medilink<br> <a href=https://medilinkbg.com/>Website</a></div>`)[0];
+                popup_9c31837e20b643b78e280eb2f55bcb40.setContent(html_e89ca22565c74ce298efea4f2635f56b);
+            
+
+            marker_0cf09eae6aab4a6b9b710925ca60ac16.bindPopup(popup_9c31837e20b643b78e280eb2f55bcb40)
+            ;
+
+            
+        
+    
+        var marker_cf5db0f5d70047d49f754471d9e92d32 = L.marker(
+            [42.662247, 23.372029],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_7df197d2384143ba914099a62a30f132 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cf5db0f5d70047d49f754471d9e92d32.setIcon(icon_7df197d2384143ba914099a62a30f132);
+            
+    
+            var popup_011b8753815f41feac9864f036a49c4c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ec91e75b526241cd975cf860a63c9212 = $(`<div id="html_ec91e75b526241cd975cf860a63c9212" style="width: 100.0%; height: 100.0%;">Bulgaria<br> MTE<br> <a href=http://www.mte-bg.com>Website</a></div>`)[0];
+                popup_011b8753815f41feac9864f036a49c4c.setContent(html_ec91e75b526241cd975cf860a63c9212);
+            
+
+            marker_cf5db0f5d70047d49f754471d9e92d32.bindPopup(popup_011b8753815f41feac9864f036a49c4c)
+            ;
+
+            
+        
+    
+        var marker_bd6c2e08a433443b80e794042ffe5eb9 = L.marker(
+            [54.149659, -4.480501],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_cf0739abcf51437fb67a4a55b37aa665 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_bd6c2e08a433443b80e794042ffe5eb9.setIcon(icon_cf0739abcf51437fb67a4a55b37aa665);
+            
+    
+            var popup_b2da0165b74241a1b8fcaa7cf662402b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ddf50aba380e4225974dc501802f19f0 = $(`<div id="html_ddf50aba380e4225974dc501802f19f0" style="width: 100.0%; height: 100.0%;">Isle of Man<br> Ortomed Trading Ltd<br> <a href=0>Website</a></div>`)[0];
+                popup_b2da0165b74241a1b8fcaa7cf662402b.setContent(html_ddf50aba380e4225974dc501802f19f0);
+            
+
+            marker_bd6c2e08a433443b80e794042ffe5eb9.bindPopup(popup_b2da0165b74241a1b8fcaa7cf662402b)
+            ;
+
+            
+        
+    
+        var marker_268fcc4edc4640c7bcbeb54aaf9453d4 = L.marker(
+            [42.665002, 23.364951],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_3837cbb3cce745489ee2bec9017f4527 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_268fcc4edc4640c7bcbeb54aaf9453d4.setIcon(icon_3837cbb3cce745489ee2bec9017f4527);
+            
+    
+            var popup_729f8d5f7d0a47fca8b0115a7d9edc03 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c182567a93e549d68fe86e9a3d22343f = $(`<div id="html_c182567a93e549d68fe86e9a3d22343f" style="width: 100.0%; height: 100.0%;">Bulgaria<br> Paramedica<br> <a href=http://paramedica-bg.com/>Website</a></div>`)[0];
+                popup_729f8d5f7d0a47fca8b0115a7d9edc03.setContent(html_c182567a93e549d68fe86e9a3d22343f);
+            
+
+            marker_268fcc4edc4640c7bcbeb54aaf9453d4.bindPopup(popup_729f8d5f7d0a47fca8b0115a7d9edc03)
+            ;
+
+            
+        
+    
+        var marker_bb96559e029745beaf59b6ac1b48d5bf = L.marker(
+            [42.667695, 23.280157],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_923ce009b50246eb99f27fb29d6e346f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_bb96559e029745beaf59b6ac1b48d5bf.setIcon(icon_923ce009b50246eb99f27fb29d6e346f);
+            
+    
+            var popup_6834d60c44dc48b68491df6829e88f5b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4d5a4b6dd19c4c4d95f0c8bdb4794699 = $(`<div id="html_4d5a4b6dd19c4c4d95f0c8bdb4794699" style="width: 100.0%; height: 100.0%;">Bulgaria<br> Solomed<br> <a href=http://www.solomed.eu/store/index.html>Website</a></div>`)[0];
+                popup_6834d60c44dc48b68491df6829e88f5b.setContent(html_4d5a4b6dd19c4c4d95f0c8bdb4794699);
+            
+
+            marker_bb96559e029745beaf59b6ac1b48d5bf.bindPopup(popup_6834d60c44dc48b68491df6829e88f5b)
+            ;
+
+            
+        
+    
+        var marker_54c1e17c57df475b8724c1adb3a25516 = L.marker(
+            [42.666072, 23.356574],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_0b2aba802d604316bb4a3044e5467226 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_54c1e17c57df475b8724c1adb3a25516.setIcon(icon_0b2aba802d604316bb4a3044e5467226);
+            
+    
+            var popup_8a60e0885cea4818981aac611460524f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c782488a2b3d4438b08b69049a33e114 = $(`<div id="html_c782488a2b3d4438b08b69049a33e114" style="width: 100.0%; height: 100.0%;">Bulgaria<br> Sopharma Trading AD<br> <a href=www.sopharmatrading.bg>Website</a></div>`)[0];
+                popup_8a60e0885cea4818981aac611460524f.setContent(html_c782488a2b3d4438b08b69049a33e114);
+            
+
+            marker_54c1e17c57df475b8724c1adb3a25516.bindPopup(popup_8a60e0885cea4818981aac611460524f)
+            ;
+
+            
+        
+    
+        var marker_d5fa166bc18d4be6b41d0abb1d5ea41b = L.marker(
+            [42.657265, 23.285865],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_6a0dc065325a46b29f88263be18c940d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d5fa166bc18d4be6b41d0abb1d5ea41b.setIcon(icon_6a0dc065325a46b29f88263be18c940d);
+            
+    
+            var popup_ad48daffcf404973ad34cd0f755a39de = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0f0ca156a075454ea2be0744a98a76c6 = $(`<div id="html_0f0ca156a075454ea2be0744a98a76c6" style="width: 100.0%; height: 100.0%;">Bulgaria<br> Vega Medikal<br> <a href=http://www.vegamedical.bg/en/>Website</a></div>`)[0];
+                popup_ad48daffcf404973ad34cd0f755a39de.setContent(html_0f0ca156a075454ea2be0744a98a76c6);
+            
+
+            marker_d5fa166bc18d4be6b41d0abb1d5ea41b.bindPopup(popup_ad48daffcf404973ad34cd0f755a39de)
+            ;
+
+            
+        
+    
+        var marker_a52536e5a2b8472f8a4dad9f93b0f596 = L.marker(
+            [42.141326, 24.772217],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_fb4358c250184c73a3ea16db04c0c51f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a52536e5a2b8472f8a4dad9f93b0f596.setIcon(icon_fb4358c250184c73a3ea16db04c0c51f);
+            
+    
+            var popup_980e02ce23434f5685ae883d4d2fafe4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5143392bb57e4b31a0a8cfe91248602c = $(`<div id="html_5143392bb57e4b31a0a8cfe91248602c" style="width: 100.0%; height: 100.0%;">Bulgaria<br> BultechnoMed<br> <a href=http://www.termaks.com/distributors/bulgaria/bultechnomed/>Website</a></div>`)[0];
+                popup_980e02ce23434f5685ae883d4d2fafe4.setContent(html_5143392bb57e4b31a0a8cfe91248602c);
+            
+
+            marker_a52536e5a2b8472f8a4dad9f93b0f596.bindPopup(popup_980e02ce23434f5685ae883d4d2fafe4)
+            ;
+
+            
+        
+    
+        var marker_84a7917c67a54171884455c4a9a4ea72 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_44f425d3ac1447a59e827980c1b4fb07 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_84a7917c67a54171884455c4a9a4ea72.setIcon(icon_44f425d3ac1447a59e827980c1b4fb07);
+            
+    
+            var popup_e73979c9059e4cc2a61e2fec9a0b33e2 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5499478675e14c9b88964245fb3d34b7 = $(`<div id="html_5499478675e14c9b88964245fb3d34b7" style="width: 100.0%; height: 100.0%;">Bulgaria<br> S & S Ltd<br> <a href=0>Website</a></div>`)[0];
+                popup_e73979c9059e4cc2a61e2fec9a0b33e2.setContent(html_5499478675e14c9b88964245fb3d34b7);
+            
+
+            marker_84a7917c67a54171884455c4a9a4ea72.bindPopup(popup_e73979c9059e4cc2a61e2fec9a0b33e2)
+            ;
+
+            
+        
+    
+        var marker_c6cd302b5d594de2a9d8a9b9d147373f = L.marker(
+            [42.660726000000004, 23.287837],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_79697f42c047439c8ff7d77394c68271 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c6cd302b5d594de2a9d8a9b9d147373f.setIcon(icon_79697f42c047439c8ff7d77394c68271);
+            
+    
+            var popup_776225d5f9e14c27a18136e14cb40745 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_70e74dca30374b399ed49849eba4d454 = $(`<div id="html_70e74dca30374b399ed49849eba4d454" style="width: 100.0%; height: 100.0%;">Bulgaria<br> Novimed Ltd<br> <a href=https://www.novimed.net/index.php/en/novimed3>Website</a></div>`)[0];
+                popup_776225d5f9e14c27a18136e14cb40745.setContent(html_70e74dca30374b399ed49849eba4d454);
+            
+
+            marker_c6cd302b5d594de2a9d8a9b9d147373f.bindPopup(popup_776225d5f9e14c27a18136e14cb40745)
+            ;
+
+            
+        
+    
+        var marker_297b665f34c04061919096452021385c = L.marker(
+            [42.663831, 23.371312],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_2c715edcc508491e8c8a856b8a94a770 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_297b665f34c04061919096452021385c.setIcon(icon_2c715edcc508491e8c8a856b8a94a770);
+            
+    
+            var popup_8763ea3a956446dcbde0d85ae1758a26 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6d9fe5beaf6542afb5ef71c461a1ac23 = $(`<div id="html_6d9fe5beaf6542afb5ef71c461a1ac23" style="width: 100.0%; height: 100.0%;">Bulgaria<br> Medical Technics Engineering Ltd<br> <a href=http://www.medicalnet-bg.org/medtech/medtech.htm>Website</a></div>`)[0];
+                popup_8763ea3a956446dcbde0d85ae1758a26.setContent(html_6d9fe5beaf6542afb5ef71c461a1ac23);
+            
+
+            marker_297b665f34c04061919096452021385c.bindPopup(popup_8763ea3a956446dcbde0d85ae1758a26)
+            ;
+
+            
+        
+    
+        var marker_24be2898a9d047f583c7eb82d8a36a44 = L.marker(
+            [-33.453429, -70.54144699999999],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_7f05643cca3a4d57b9c2962f1e4f02aa = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_24be2898a9d047f583c7eb82d8a36a44.setIcon(icon_7f05643cca3a4d57b9c2962f1e4f02aa);
+            
+    
+            var popup_974e4ff14fb54b76aca2baac5e3e939b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_51d57afed8ff490399d0370e414ba0aa = $(`<div id="html_51d57afed8ff490399d0370e414ba0aa" style="width: 100.0%; height: 100.0%;">Chile<br> Zubimed<br> <a href=http://www.zubimed.cl/>Website</a></div>`)[0];
+                popup_974e4ff14fb54b76aca2baac5e3e939b.setContent(html_51d57afed8ff490399d0370e414ba0aa);
+            
+
+            marker_24be2898a9d047f583c7eb82d8a36a44.bindPopup(popup_974e4ff14fb54b76aca2baac5e3e939b)
+            ;
+
+            
+        
+    
+        var marker_79796e07229f42bcba53bc90cd6125be = L.marker(
+            [45.869184000000004, 15.767043],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_8b988b461dad482c8627ce3e92983599 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_79796e07229f42bcba53bc90cd6125be.setIcon(icon_8b988b461dad482c8627ce3e92983599);
+            
+    
+            var popup_8c379c3803604b43a84c79addf902168 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e7f159a93758434bb1a39d01df22e069 = $(`<div id="html_e7f159a93758434bb1a39d01df22e069" style="width: 100.0%; height: 100.0%;">Croatia<br> Aminomed<br> <a href=http://www.aminomed.hr/>Website</a></div>`)[0];
+                popup_8c379c3803604b43a84c79addf902168.setContent(html_e7f159a93758434bb1a39d01df22e069);
+            
+
+            marker_79796e07229f42bcba53bc90cd6125be.bindPopup(popup_8c379c3803604b43a84c79addf902168)
+            ;
+
+            
+        
+    
+        var marker_c6d93aa5b40840ba81d97c136ae2dfcf = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_054551b0359542dfb92cbeb961983992 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c6d93aa5b40840ba81d97c136ae2dfcf.setIcon(icon_054551b0359542dfb92cbeb961983992);
+            
+    
+            var popup_f6ece8ff8502461f8fb6a7b7c5d150db = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_30f6aee99bb4495385aae154cb872bae = $(`<div id="html_30f6aee99bb4495385aae154cb872bae" style="width: 100.0%; height: 100.0%;">Croatia<br> AnalyticPharma<br> <a href=http://www.analyticpharma.hr/>Website</a></div>`)[0];
+                popup_f6ece8ff8502461f8fb6a7b7c5d150db.setContent(html_30f6aee99bb4495385aae154cb872bae);
+            
+
+            marker_c6d93aa5b40840ba81d97c136ae2dfcf.bindPopup(popup_f6ece8ff8502461f8fb6a7b7c5d150db)
+            ;
+
+            
+        
+    
+        var marker_9a52c399511a4a4cb24e26f3ae885ce8 = L.marker(
+            [45.809625, 16.064641],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_c2de993ec2c6403fb7c0eae821c48e17 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9a52c399511a4a4cb24e26f3ae885ce8.setIcon(icon_c2de993ec2c6403fb7c0eae821c48e17);
+            
+    
+            var popup_9bf5551c938f427bbf32644a9606a7eb = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0767becb6c6742a799d499c185314dc5 = $(`<div id="html_0767becb6c6742a799d499c185314dc5" style="width: 100.0%; height: 100.0%;">Croatia<br> Medicina-Promet<br> <a href=http://www.medicina-promet.hr/>Website</a></div>`)[0];
+                popup_9bf5551c938f427bbf32644a9606a7eb.setContent(html_0767becb6c6742a799d499c185314dc5);
+            
+
+            marker_9a52c399511a4a4cb24e26f3ae885ce8.bindPopup(popup_9bf5551c938f427bbf32644a9606a7eb)
+            ;
+
+            
+        
+    
+        var marker_63f8e6f05bb747cdbd9dfb937cec7979 = L.marker(
+            [46.062928, 14.560307],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_498921bec65640b98e0fbf712b92675a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_63f8e6f05bb747cdbd9dfb937cec7979.setIcon(icon_498921bec65640b98e0fbf712b92675a);
+            
+    
+            var popup_6641e535cb1b4860a279147c4c88a010 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2118bc8104404386bbc3719f5bd7aad2 = $(`<div id="html_2118bc8104404386bbc3719f5bd7aad2" style="width: 100.0%; height: 100.0%;">Slovenia<br> Pharmamed<br> <a href=www.pharmamed.si>Website</a></div>`)[0];
+                popup_6641e535cb1b4860a279147c4c88a010.setContent(html_2118bc8104404386bbc3719f5bd7aad2);
+            
+
+            marker_63f8e6f05bb747cdbd9dfb937cec7979.bindPopup(popup_6641e535cb1b4860a279147c4c88a010)
+            ;
+
+            
+        
+    
+        var marker_555dce875c704dd4be38b9c7e0eb6ac0 = L.marker(
+            [45.809986, 16.000329],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_00fce2da34d245e8a6d16a3323c7e88f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_555dce875c704dd4be38b9c7e0eb6ac0.setIcon(icon_00fce2da34d245e8a6d16a3323c7e88f);
+            
+    
+            var popup_c65d461c639e42889a77c7c4d2a6d1d0 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_73a3da52fa8d4356801ec6fab52de4d2 = $(`<div id="html_73a3da52fa8d4356801ec6fab52de4d2" style="width: 100.0%; height: 100.0%;">Croatia<br> Sanyko<br> <a href=http://www.sanyko.hr/index.php>Website</a></div>`)[0];
+                popup_c65d461c639e42889a77c7c4d2a6d1d0.setContent(html_73a3da52fa8d4356801ec6fab52de4d2);
+            
+
+            marker_555dce875c704dd4be38b9c7e0eb6ac0.bindPopup(popup_c65d461c639e42889a77c7c4d2a6d1d0)
+            ;
+
+            
+        
+    
+        var marker_087415a8dd16446fb5b89eafcb677ad0 = L.marker(
+            [45.786049, 16.030556],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_96ea2c5259064fd4863a0b8418ab1f01 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_087415a8dd16446fb5b89eafcb677ad0.setIcon(icon_96ea2c5259064fd4863a0b8418ab1f01);
+            
+    
+            var popup_cf2438b043c24ace891907e0a8e4c569 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_dbcf9520ab8c4de492a4b4ab494b7040 = $(`<div id="html_dbcf9520ab8c4de492a4b4ab494b7040" style="width: 100.0%; height: 100.0%;">Croatia<br> Stiv Trade<br> <a href=http://stivtrade.hr/>Website</a></div>`)[0];
+                popup_cf2438b043c24ace891907e0a8e4c569.setContent(html_dbcf9520ab8c4de492a4b4ab494b7040);
+            
+
+            marker_087415a8dd16446fb5b89eafcb677ad0.bindPopup(popup_cf2438b043c24ace891907e0a8e4c569)
+            ;
+
+            
+        
+    
+        var marker_8a03326741e1481e990aaf5aec4c9159 = L.marker(
+            [45.791759000000006, 15.95711],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_38b7ec4cc2e74ef8a32eaf5d6cdaeec0 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8a03326741e1481e990aaf5aec4c9159.setIcon(icon_38b7ec4cc2e74ef8a32eaf5d6cdaeec0);
+            
+    
+            var popup_bbc66ac3fdae4aa6b2b4b336265b3c89 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_453861ffff2c4af7ba0d0eec5c928b1d = $(`<div id="html_453861ffff2c4af7ba0d0eec5c928b1d" style="width: 100.0%; height: 100.0%;">Croatia<br> TEHNOMEDIKA<br> <a href=https://tehnomedika.hr/>Website</a></div>`)[0];
+                popup_bbc66ac3fdae4aa6b2b4b336265b3c89.setContent(html_453861ffff2c4af7ba0d0eec5c928b1d);
+            
+
+            marker_8a03326741e1481e990aaf5aec4c9159.bindPopup(popup_bbc66ac3fdae4aa6b2b4b336265b3c89)
+            ;
+
+            
+        
+    
+        var marker_219c8c13d9e84ade844251d4afb732df = L.marker(
+            [55.647367, 12.392202000000001],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_7bcb5b3faa6d47bf864d07d85b238d16 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_219c8c13d9e84ade844251d4afb732df.setIcon(icon_7bcb5b3faa6d47bf864d07d85b238d16);
+            
+    
+            var popup_b891ed53b8794198927add0768a670f1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4d7be84a3ea34857a5a50babda5532c7 = $(`<div id="html_4d7be84a3ea34857a5a50babda5532c7" style="width: 100.0%; height: 100.0%;">Denmark<br> Apgar<br> <a href=http://www.apgar.dk/Apgar_Engelsk/default_eng.htm>Website</a></div>`)[0];
+                popup_b891ed53b8794198927add0768a670f1.setContent(html_4d7be84a3ea34857a5a50babda5532c7);
+            
+
+            marker_219c8c13d9e84ade844251d4afb732df.bindPopup(popup_b891ed53b8794198927add0768a670f1)
+            ;
+
+            
+        
+    
+        var marker_ff85ec32960542bbbfc6e20ceab3da1e = L.marker(
+            [55.646253, 12.390067],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_733028b5b86a405fbc7fad5f32a90b63 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ff85ec32960542bbbfc6e20ceab3da1e.setIcon(icon_733028b5b86a405fbc7fad5f32a90b63);
+            
+    
+            var popup_59bc7499ed9c4b559c8c672e0d9a2099 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_edc220b875524fe8a56d3f5d0ec63eb9 = $(`<div id="html_edc220b875524fe8a56d3f5d0ec63eb9" style="width: 100.0%; height: 100.0%;">Denmark<br> Sacomed<br> <a href=https://sacomed.com/>Website</a></div>`)[0];
+                popup_59bc7499ed9c4b559c8c672e0d9a2099.setContent(html_edc220b875524fe8a56d3f5d0ec63eb9);
+            
+
+            marker_ff85ec32960542bbbfc6e20ceab3da1e.bindPopup(popup_59bc7499ed9c4b559c8c672e0d9a2099)
+            ;
+
+            
+        
+    
+        var marker_5ee1034a4aee46d89aab11a51c8dc651 = L.marker(
+            [55.966528000000004, 12.391059],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_80981bc2f3c24c31ae6b19c52d5ae4b5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5ee1034a4aee46d89aab11a51c8dc651.setIcon(icon_80981bc2f3c24c31ae6b19c52d5ae4b5);
+            
+    
+            var popup_dd49543e09ca411ebb42ab237dac016a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e2c4b392794b4a2895b7d56f207bb5bd = $(`<div id="html_e2c4b392794b4a2895b7d56f207bb5bd" style="width: 100.0%; height: 100.0%;">Denmark<br> IVUS<br> <a href=https://www.ivus.dk/>Website</a></div>`)[0];
+                popup_dd49543e09ca411ebb42ab237dac016a.setContent(html_e2c4b392794b4a2895b7d56f207bb5bd);
+            
+
+            marker_5ee1034a4aee46d89aab11a51c8dc651.bindPopup(popup_dd49543e09ca411ebb42ab237dac016a)
+            ;
+
+            
+        
+    
+        var marker_19559ee843cb457686f69fc3cc745a81 = L.marker(
+            [55.678506999999996, 12.381919],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_59caa965849642ddae8ba0110b46683b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_19559ee843cb457686f69fc3cc745a81.setIcon(icon_59caa965849642ddae8ba0110b46683b);
+            
+    
+            var popup_b9ae7522d4204879bbd38181ac35e889 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c3a879355f5f45d48da4a436ae1c83f1 = $(`<div id="html_c3a879355f5f45d48da4a436ae1c83f1" style="width: 100.0%; height: 100.0%;">Denmark<br> Glorious-enterprises<br> <a href=https://glorious-enterprises.dk/home/>Website</a></div>`)[0];
+                popup_b9ae7522d4204879bbd38181ac35e889.setContent(html_c3a879355f5f45d48da4a436ae1c83f1);
+            
+
+            marker_19559ee843cb457686f69fc3cc745a81.bindPopup(popup_b9ae7522d4204879bbd38181ac35e889)
+            ;
+
+            
+        
+    
+        var marker_86ef6633af2b4aa190addccfbbee7fd2 = L.marker(
+            [55.071656999999995, 9.368393],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_412763d3bd874c3aaffb03ffac31b82e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_86ef6633af2b4aa190addccfbbee7fd2.setIcon(icon_412763d3bd874c3aaffb03ffac31b82e);
+            
+    
+            var popup_c7a53ddb8c6f4048ac3c56d01719ac33 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_26b23fab1af94197b64c64781f71f224 = $(`<div id="html_26b23fab1af94197b64c64781f71f224" style="width: 100.0%; height: 100.0%;">Denmark<br> Abena<br> <a href=https://www.abena.dk/>Website</a></div>`)[0];
+                popup_c7a53ddb8c6f4048ac3c56d01719ac33.setContent(html_26b23fab1af94197b64c64781f71f224);
+            
+
+            marker_86ef6633af2b4aa190addccfbbee7fd2.bindPopup(popup_c7a53ddb8c6f4048ac3c56d01719ac33)
+            ;
+
+            
+        
+    
+        var marker_62c67f5ced67493883baedb8238f9d36 = L.marker(
+            [55.93453100000001, 12.282639999999999],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_6b652c8482884a3090f58541561d078f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_62c67f5ced67493883baedb8238f9d36.setIcon(icon_6b652c8482884a3090f58541561d078f);
+            
+    
+            var popup_87890ae1554c466781fad4d73041fc4c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_07fc58c80682428e8f8e6f3ef0ae68a9 = $(`<div id="html_07fc58c80682428e8f8e6f3ef0ae68a9" style="width: 100.0%; height: 100.0%;">Denmark<br> SSI Diagnostica<br> <a href=https://www.ssidiagnostica.com/>Website</a></div>`)[0];
+                popup_87890ae1554c466781fad4d73041fc4c.setContent(html_07fc58c80682428e8f8e6f3ef0ae68a9);
+            
+
+            marker_62c67f5ced67493883baedb8238f9d36.bindPopup(popup_87890ae1554c466781fad4d73041fc4c)
+            ;
+
+            
+        
+    
+        var marker_42bcb5b3d95e4dd8bcd572b09bd34a4f = L.marker(
+            [4.904404, 11.888043],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_25f5d71085b64eed8e2da7aa7c98459a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_42bcb5b3d95e4dd8bcd572b09bd34a4f.setIcon(icon_25f5d71085b64eed8e2da7aa7c98459a);
+            
+    
+            var popup_d93872fe92f14b33bac8ddf8c29fe62d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_dc5cb768ec2244e58d13469e3b59e99c = $(`<div id="html_dc5cb768ec2244e58d13469e3b59e99c" style="width: 100.0%; height: 100.0%;">Denmark<br> Melitek<br> <a href=https://www.melitek.com/MELITEK---Specialist-in-medical-technologies>Website</a></div>`)[0];
+                popup_d93872fe92f14b33bac8ddf8c29fe62d.setContent(html_dc5cb768ec2244e58d13469e3b59e99c);
+            
+
+            marker_42bcb5b3d95e4dd8bcd572b09bd34a4f.bindPopup(popup_d93872fe92f14b33bac8ddf8c29fe62d)
+            ;
+
+            
+        
+    
+        var marker_378285bc63414845aeaf6ce895b11ba4 = L.marker(
+            [55.513955, 12.133982000000001],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_5e474998a68e4cb09033933f68956e89 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_378285bc63414845aeaf6ce895b11ba4.setIcon(icon_5e474998a68e4cb09033933f68956e89);
+            
+    
+            var popup_e86ad28460ad45a4be68325ed3a237a1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8458e378c6dc4ece8338542a7daba4f9 = $(`<div id="html_8458e378c6dc4ece8338542a7daba4f9" style="width: 100.0%; height: 100.0%;">Denmark<br> Nomepa<br> <a href=http://www.nomepa.com/>Website</a></div>`)[0];
+                popup_e86ad28460ad45a4be68325ed3a237a1.setContent(html_8458e378c6dc4ece8338542a7daba4f9);
+            
+
+            marker_378285bc63414845aeaf6ce895b11ba4.bindPopup(popup_e86ad28460ad45a4be68325ed3a237a1)
+            ;
+
+            
+        
+    
+        var marker_dabc20a815ef4c9c93332c7be73bcbab = L.marker(
+            [59.407353, 24.724080999999998],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_fc33316d45514c4a9a13aa92fd70e986 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_dabc20a815ef4c9c93332c7be73bcbab.setIcon(icon_fc33316d45514c4a9a13aa92fd70e986);
+            
+    
+            var popup_bc097332f3ef4448ad62f23cbb6ae5a2 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_59e6aea1850a47c7a739b4ba0f110ad9 = $(`<div id="html_59e6aea1850a47c7a739b4ba0f110ad9" style="width: 100.0%; height: 100.0%;">Estonia<br> AB Technology<br> <a href=http://abt.ee/en/>Website</a></div>`)[0];
+                popup_bc097332f3ef4448ad62f23cbb6ae5a2.setContent(html_59e6aea1850a47c7a739b4ba0f110ad9);
+            
+
+            marker_dabc20a815ef4c9c93332c7be73bcbab.bindPopup(popup_bc097332f3ef4448ad62f23cbb6ae5a2)
+            ;
+
+            
+        
+    
+        var marker_de7e255b46d246e0862076d943ad3101 = L.marker(
+            [45.590573, 5.261076],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_b2c3b92125284e198eb78b635994024a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_de7e255b46d246e0862076d943ad3101.setIcon(icon_b2c3b92125284e198eb78b635994024a);
+            
+    
+            var popup_185bdec52fc84f7d89755e11ee0486de = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f94e97db6a1f45b4a2ad3794ca6e911d = $(`<div id="html_f94e97db6a1f45b4a2ad3794ca6e911d" style="width: 100.0%; height: 100.0%;">France<br> Cormedica<br> <a href=http://www.cormedica.fr/>Website</a></div>`)[0];
+                popup_185bdec52fc84f7d89755e11ee0486de.setContent(html_f94e97db6a1f45b4a2ad3794ca6e911d);
+            
+
+            marker_de7e255b46d246e0862076d943ad3101.bindPopup(popup_185bdec52fc84f7d89755e11ee0486de)
+            ;
+
+            
+        
+    
+        var marker_c315e134a68b42dd976e04ee86377813 = L.marker(
+            [41.727281, 44.732563],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_ddbeda3ebcf34c639583b684f0c3f6f4 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c315e134a68b42dd976e04ee86377813.setIcon(icon_ddbeda3ebcf34c639583b684f0c3f6f4);
+            
+    
+            var popup_84b87ed7a6874bc1aa76b752ff8db4d6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_cab3281adb5f4c51a1a2077f61db7d27 = $(`<div id="html_cab3281adb5f4c51a1a2077f61db7d27" style="width: 100.0%; height: 100.0%;">Georgia<br> Atlas Medical<br> <a href=https://www.linkedin.com/company/atlas-medical-llc/>Website</a></div>`)[0];
+                popup_84b87ed7a6874bc1aa76b752ff8db4d6.setContent(html_cab3281adb5f4c51a1a2077f61db7d27);
+            
+
+            marker_c315e134a68b42dd976e04ee86377813.bindPopup(popup_84b87ed7a6874bc1aa76b752ff8db4d6)
+            ;
+
+            
+        
+    
+        var marker_1bb9c1259f87431fac9489a9ba0738c0 = L.marker(
+            [41.716936, 44.827085],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_41e06ab2ebf248b7b91fbc1e2e3b170f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1bb9c1259f87431fac9489a9ba0738c0.setIcon(icon_41e06ab2ebf248b7b91fbc1e2e3b170f);
+            
+    
+            var popup_04e1a04aea064f139e7f293465e4d5e1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_069124a4ede843dc8afbae2654845ec5 = $(`<div id="html_069124a4ede843dc8afbae2654845ec5" style="width: 100.0%; height: 100.0%;">Georgia<br> Deltamed<br> <a href=http://deltamedgeorgia.com/cat1_eng.php?catid=21>Website</a></div>`)[0];
+                popup_04e1a04aea064f139e7f293465e4d5e1.setContent(html_069124a4ede843dc8afbae2654845ec5);
+            
+
+            marker_1bb9c1259f87431fac9489a9ba0738c0.bindPopup(popup_04e1a04aea064f139e7f293465e4d5e1)
+            ;
+
+            
+        
+    
+        var marker_8ce72ea18f134aceaba58cd94276c963 = L.marker(
+            [41.796184000000004, 44.753097],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_dad7d86da6814a24820fab4b8e2fc635 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8ce72ea18f134aceaba58cd94276c963.setIcon(icon_dad7d86da6814a24820fab4b8e2fc635);
+            
+    
+            var popup_0fe8eab0680e4e20bed4c7a1bae58736 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7121489d4bbd444b95b40dce34251574 = $(`<div id="html_7121489d4bbd444b95b40dce34251574" style="width: 100.0%; height: 100.0%;">Georgia<br> Geo Latex<br> <a href=http://www.geolatex.ge/?c_id=9&b_id=24#products>Website</a></div>`)[0];
+                popup_0fe8eab0680e4e20bed4c7a1bae58736.setContent(html_7121489d4bbd444b95b40dce34251574);
+            
+
+            marker_8ce72ea18f134aceaba58cd94276c963.bindPopup(popup_0fe8eab0680e4e20bed4c7a1bae58736)
+            ;
+
+            
+        
+    
+        var marker_1fd4747f36cb41fa935df3019e6a0d20 = L.marker(
+            [41.678724, 44.824984],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_5b66d378b7f24b3eb48f04d2f1e1e50d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1fd4747f36cb41fa935df3019e6a0d20.setIcon(icon_5b66d378b7f24b3eb48f04d2f1e1e50d);
+            
+    
+            var popup_931e17e0e0c143d5bff4f2ed1458eb0e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5487fe5f2f04429c8f6fe42fe19abc50 = $(`<div id="html_5487fe5f2f04429c8f6fe42fe19abc50" style="width: 100.0%; height: 100.0%;">Georgia<br> Harmed<br> <a href=http://harmed.ge/en/about_us.php>Website</a></div>`)[0];
+                popup_931e17e0e0c143d5bff4f2ed1458eb0e.setContent(html_5487fe5f2f04429c8f6fe42fe19abc50);
+            
+
+            marker_1fd4747f36cb41fa935df3019e6a0d20.bindPopup(popup_931e17e0e0c143d5bff4f2ed1458eb0e)
+            ;
+
+            
+        
+    
+        var marker_1062ee590c5c405ea0659b3e65b3b228 = L.marker(
+            [41.780228, 44.770877],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_00dda54d26bb445ca1503f863adf252d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1062ee590c5c405ea0659b3e65b3b228.setIcon(icon_00dda54d26bb445ca1503f863adf252d);
+            
+    
+            var popup_cc15ffbeab0a499ab26ff7a99ea051a6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5cf7cd532e5047ddacdcbcc03b19a02e = $(`<div id="html_5cf7cd532e5047ddacdcbcc03b19a02e" style="width: 100.0%; height: 100.0%;">Georgia<br> Ivermedi<br> <a href=http://www.ivermedi.com/index.php>Website</a></div>`)[0];
+                popup_cc15ffbeab0a499ab26ff7a99ea051a6.setContent(html_5cf7cd532e5047ddacdcbcc03b19a02e);
+            
+
+            marker_1062ee590c5c405ea0659b3e65b3b228.bindPopup(popup_cc15ffbeab0a499ab26ff7a99ea051a6)
+            ;
+
+            
+        
+    
+        var marker_ab78638a02ab4cd4bc08844133d52275 = L.marker(
+            [41.75288, 44.778032],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_56297a7ae28e41ecb9904ec57aca2060 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ab78638a02ab4cd4bc08844133d52275.setIcon(icon_56297a7ae28e41ecb9904ec57aca2060);
+            
+    
+            var popup_53c7d367cb8d477289dd0cd878a9ce1b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ee6e1c6683294a8cb8c867ae5513d826 = $(`<div id="html_ee6e1c6683294a8cb8c867ae5513d826" style="width: 100.0%; height: 100.0%;">Georgia<br> Medhouse<br> <a href=http://medhouse.ge/index.php/ge/disposables.html>Website</a></div>`)[0];
+                popup_53c7d367cb8d477289dd0cd878a9ce1b.setContent(html_ee6e1c6683294a8cb8c867ae5513d826);
+            
+
+            marker_ab78638a02ab4cd4bc08844133d52275.bindPopup(popup_53c7d367cb8d477289dd0cd878a9ce1b)
+            ;
+
+            
+        
+    
+        var marker_08060a5cea7d41b193187d3fdbec9a2e = L.marker(
+            [37.961325, 23.724951],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_a682fd36008848789a0e460e10bcdf67 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_08060a5cea7d41b193187d3fdbec9a2e.setIcon(icon_a682fd36008848789a0e460e10bcdf67);
+            
+    
+            var popup_32b171e6c49e4dc78a518a5e517a90fb = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_056f546336284052b1a8616e25b8c079 = $(`<div id="html_056f546336284052b1a8616e25b8c079" style="width: 100.0%; height: 100.0%;">Greece<br> IntelligENT Medical<br> <a href=http://www.intelligent-medical.gr/index.php?lang=en>Website</a></div>`)[0];
+                popup_32b171e6c49e4dc78a518a5e517a90fb.setContent(html_056f546336284052b1a8616e25b8c079);
+            
+
+            marker_08060a5cea7d41b193187d3fdbec9a2e.bindPopup(popup_32b171e6c49e4dc78a518a5e517a90fb)
+            ;
+
+            
+        
+    
+        var marker_1b10baac145b497b841c1fadf7b4d212 = L.marker(
+            [40.643033, 22.959354],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_99ac9ef6215445dd9bf54589453819a3 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1b10baac145b497b841c1fadf7b4d212.setIcon(icon_99ac9ef6215445dd9bf54589453819a3);
+            
+    
+            var popup_cd698c1a34664404ab021e73431bfb30 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_141f198d1d1b492d832486b6a038a19d = $(`<div id="html_141f198d1d1b492d832486b6a038a19d" style="width: 100.0%; height: 100.0%;">Greece<br> Ananiadis Medical<br> <a href=https://ananiadis-medical.gr/>Website</a></div>`)[0];
+                popup_cd698c1a34664404ab021e73431bfb30.setContent(html_141f198d1d1b492d832486b6a038a19d);
+            
+
+            marker_1b10baac145b497b841c1fadf7b4d212.bindPopup(popup_cd698c1a34664404ab021e73431bfb30)
+            ;
+
+            
+        
+    
+        var marker_497796f89b5648a4b8d00a784702598b = L.marker(
+            [38.321577000000005, 21.852569],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_0700647e7cd14c42bda86118111fb9a3 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_497796f89b5648a4b8d00a784702598b.setIcon(icon_0700647e7cd14c42bda86118111fb9a3);
+            
+    
+            var popup_2e543c1f96754de1896a4c7467723ab9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4a4ba2ad79354aa7a4b2bad72a1933dd = $(`<div id="html_4a4ba2ad79354aa7a4b2bad72a1933dd" style="width: 100.0%; height: 100.0%;">Greece<br> BBD NIK. LAINIOTIS SA.BE<br> <a href=http://www.lainiotis.gr/products.html>Website</a></div>`)[0];
+                popup_2e543c1f96754de1896a4c7467723ab9.setContent(html_4a4ba2ad79354aa7a4b2bad72a1933dd);
+            
+
+            marker_497796f89b5648a4b8d00a784702598b.bindPopup(popup_2e543c1f96754de1896a4c7467723ab9)
+            ;
+
+            
+        
+    
+        var marker_b14ff80588994c49b3bcec920d747d7e = L.marker(
+            [40.28072, 22.517012],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_f72f166272cf4ddbb4ac8b37baca0cb9 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b14ff80588994c49b3bcec920d747d7e.setIcon(icon_f72f166272cf4ddbb4ac8b37baca0cb9);
+            
+    
+            var popup_12dffe67f5154f989687e187e1753876 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4b8073c80a4340c5847bd8eb23b537fa = $(`<div id="html_4b8073c80a4340c5847bd8eb23b537fa" style="width: 100.0%; height: 100.0%;">Greece<br> Ilta Medical<br> <a href=http://www.iltamedical.com/index.php?page=1&act=viewCat&catId=19>Website</a></div>`)[0];
+                popup_12dffe67f5154f989687e187e1753876.setContent(html_4b8073c80a4340c5847bd8eb23b537fa);
+            
+
+            marker_b14ff80588994c49b3bcec920d747d7e.bindPopup(popup_12dffe67f5154f989687e187e1753876)
+            ;
+
+            
+        
+    
+        var marker_595f120584624b70af040571e9d6d79f = L.marker(
+            [38.057203, 23.758819],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_b0a3b601d3b24a1a804602a981914564 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_595f120584624b70af040571e9d6d79f.setIcon(icon_b0a3b601d3b24a1a804602a981914564);
+            
+    
+            var popup_596ef8c7d3b0429483112de9d126c19b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f9049abc9b7b45718143d50741d9d713 = $(`<div id="html_f9049abc9b7b45718143d50741d9d713" style="width: 100.0%; height: 100.0%;">Greece<br> Ellenko SA<br> <a href=http://www.ellenko.gr/el-gr/Document.aspx-ElementID=f9c31089-8b47-4479-b784-471a10a98034.htm>Website</a></div>`)[0];
+                popup_596ef8c7d3b0429483112de9d126c19b.setContent(html_f9049abc9b7b45718143d50741d9d713);
+            
+
+            marker_595f120584624b70af040571e9d6d79f.bindPopup(popup_596ef8c7d3b0429483112de9d126c19b)
+            ;
+
+            
+        
+    
+        var marker_ddd2cb4675ce4422bae0717e82208310 = L.marker(
+            [37.902388, 23.881226],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_0407e773228046abbc6e33b1121f68a4 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ddd2cb4675ce4422bae0717e82208310.setIcon(icon_0407e773228046abbc6e33b1121f68a4);
+            
+    
+            var popup_abbb5625d2ec4cf29f3b8a9b3348b6f9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_90e8f56397684ceca91e6c609abef9f1 = $(`<div id="html_90e8f56397684ceca91e6c609abef9f1" style="width: 100.0%; height: 100.0%;">Greece<br> Milonas Health S.A.<br> <a href=https://www.google.com/search?safe=active&q=Milonas+Health+S.A.+Koropi+194+00,+Greece&ludocid=12822002297959432047&sa=X&ved=2ahUKEwjc-YWnkMbfAhVE6RoKHWv6AuoQoAIwAHoECAUQBA>Website</a></div>`)[0];
+                popup_abbb5625d2ec4cf29f3b8a9b3348b6f9.setContent(html_90e8f56397684ceca91e6c609abef9f1);
+            
+
+            marker_ddd2cb4675ce4422bae0717e82208310.bindPopup(popup_abbb5625d2ec4cf29f3b8a9b3348b6f9)
+            ;
+
+            
+        
+    
+        var marker_0534ebc06c82458089ace42bb2b5cc3c = L.marker(
+            [37.973779, 3.780649],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_19d3ef3bc3744b1a8af3f03462dd11b6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0534ebc06c82458089ace42bb2b5cc3c.setIcon(icon_19d3ef3bc3744b1a8af3f03462dd11b6);
+            
+    
+            var popup_e626e42de5b44451aec28e4dad951108 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_bb94e8ff6f8747b19da8b92ee9d0db2c = $(`<div id="html_bb94e8ff6f8747b19da8b92ee9d0db2c" style="width: 100.0%; height: 100.0%;">Greece<br> Violak International A.E.<br> <a href=https://www.violak.gr/en/#.XCNfiM8zY6g>Website</a></div>`)[0];
+                popup_e626e42de5b44451aec28e4dad951108.setContent(html_bb94e8ff6f8747b19da8b92ee9d0db2c);
+            
+
+            marker_0534ebc06c82458089ace42bb2b5cc3c.bindPopup(popup_e626e42de5b44451aec28e4dad951108)
+            ;
+
+            
+        
+    
+        var marker_68fe8aaf40b348dbb3b87edcbcd62f19 = L.marker(
+            [38.015843, 23.852455],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_7d4c749e33d140598447c222cd177fe1 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_68fe8aaf40b348dbb3b87edcbcd62f19.setIcon(icon_7d4c749e33d140598447c222cd177fe1);
+            
+    
+            var popup_5cdf9aa07a454b99ba71c3246b64fef0 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0bd35971d66c4d7a965950131f02c22f = $(`<div id="html_0bd35971d66c4d7a965950131f02c22f" style="width: 100.0%; height: 100.0%;">Greece<br> Envivo Healthcare S.A.<br> <a href=0>Website</a></div>`)[0];
+                popup_5cdf9aa07a454b99ba71c3246b64fef0.setContent(html_0bd35971d66c4d7a965950131f02c22f);
+            
+
+            marker_68fe8aaf40b348dbb3b87edcbcd62f19.bindPopup(popup_5cdf9aa07a454b99ba71c3246b64fef0)
+            ;
+
+            
+        
+    
+        var marker_c3637cd14e0b48889cb55ec1c76270c8 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_1f5e52852a7748c38055ce7bec08a178 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c3637cd14e0b48889cb55ec1c76270c8.setIcon(icon_1f5e52852a7748c38055ce7bec08a178);
+            
+    
+            var popup_f26fe1902be94ced83845b648e7fa97a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8e000d64c7284307a4917a452919d372 = $(`<div id="html_8e000d64c7284307a4917a452919d372" style="width: 100.0%; height: 100.0%;">Greece<br> Sciba<br> <a href=https://sciba.gr/>Website</a></div>`)[0];
+                popup_f26fe1902be94ced83845b648e7fa97a.setContent(html_8e000d64c7284307a4917a452919d372);
+            
+
+            marker_c3637cd14e0b48889cb55ec1c76270c8.bindPopup(popup_f26fe1902be94ced83845b648e7fa97a)
+            ;
+
+            
+        
+    
+        var marker_606979fb3e80499a9b9fdfcf0e1ecb80 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_80945a6cb98a4331849109f721cdc72f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_606979fb3e80499a9b9fdfcf0e1ecb80.setIcon(icon_80945a6cb98a4331849109f721cdc72f);
+            
+    
+            var popup_e27969fd81974ca4b4ea7a52d618b794 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f5bd23dcc2644eb991d8e317b02744f6 = $(`<div id="html_f5bd23dcc2644eb991d8e317b02744f6" style="width: 100.0%; height: 100.0%;">Greece<br> Medical Lite<br> <a href=http://www.medical-lite.gr/products6.php?lang=1&wh=1&trig=1&the1id=169&the2id=172&theid=172&open1=169&open2=172&menu=1&lang=2>Website</a></div>`)[0];
+                popup_e27969fd81974ca4b4ea7a52d618b794.setContent(html_f5bd23dcc2644eb991d8e317b02744f6);
+            
+
+            marker_606979fb3e80499a9b9fdfcf0e1ecb80.bindPopup(popup_e27969fd81974ca4b4ea7a52d618b794)
+            ;
+
+            
+        
+    
+        var marker_f549590155dd4385b9996b2943fb674a = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_0f6a470c2a484128af34ea11a7d66494 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f549590155dd4385b9996b2943fb674a.setIcon(icon_0f6a470c2a484128af34ea11a7d66494);
+            
+    
+            var popup_169ef6c72d40469f993a0a8e1473476c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_341e0552c2154f379af58e0cc8c82f3e = $(`<div id="html_341e0552c2154f379af58e0cc8c82f3e" style="width: 100.0%; height: 100.0%;">Greece<br> Inex Medical<br> <a href=http://inexmedical.gr/?lang=EN>Website</a></div>`)[0];
+                popup_169ef6c72d40469f993a0a8e1473476c.setContent(html_341e0552c2154f379af58e0cc8c82f3e);
+            
+
+            marker_f549590155dd4385b9996b2943fb674a.bindPopup(popup_169ef6c72d40469f993a0a8e1473476c)
+            ;
+
+            
+        
+    
+        var marker_3bc06787f50d4cb48f4cd75aaa0cc2b4 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_cf5ec7ddbf5a4f7082b25cf20a6c3d1c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3bc06787f50d4cb48f4cd75aaa0cc2b4.setIcon(icon_cf5ec7ddbf5a4f7082b25cf20a6c3d1c);
+            
+    
+            var popup_814443118f1d452293c5b313e707d745 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ae99e988c15e4c6c813663a52f2d342b = $(`<div id="html_ae99e988c15e4c6c813663a52f2d342b" style="width: 100.0%; height: 100.0%;">Greece<br> Ducasco<br> <a href=http://ducasco.gr/?product_cat=surgical-gowns-surgical-drapes-sets&lang=en>Website</a></div>`)[0];
+                popup_814443118f1d452293c5b313e707d745.setContent(html_ae99e988c15e4c6c813663a52f2d342b);
+            
+
+            marker_3bc06787f50d4cb48f4cd75aaa0cc2b4.bindPopup(popup_814443118f1d452293c5b313e707d745)
+            ;
+
+            
+        
+    
+        var marker_a6578967256449699ea48aa8efefb7f5 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_e8e05271322247b2ba4579d10dc32104 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a6578967256449699ea48aa8efefb7f5.setIcon(icon_e8e05271322247b2ba4579d10dc32104);
+            
+    
+            var popup_c54994dbe4d74b859d6753a1d68fae88 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_afc9c4fd160d4ca08a7b0278f66429c4 = $(`<div id="html_afc9c4fd160d4ca08a7b0278f66429c4" style="width: 100.0%; height: 100.0%;">Hungary<br> Novomed<br> <a href=none>Website</a></div>`)[0];
+                popup_c54994dbe4d74b859d6753a1d68fae88.setContent(html_afc9c4fd160d4ca08a7b0278f66429c4);
+            
+
+            marker_a6578967256449699ea48aa8efefb7f5.bindPopup(popup_c54994dbe4d74b859d6753a1d68fae88)
+            ;
+
+            
+        
+    
+        var marker_2f8f7d2c78f14424a750a74151f1ccca = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_19e2a020478b497688fb75e781cad56e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2f8f7d2c78f14424a750a74151f1ccca.setIcon(icon_19e2a020478b497688fb75e781cad56e);
+            
+    
+            var popup_4f9f1f0a45f74b5597db01a8ff92cc7c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9af9eb204146482cac89066266264d0c = $(`<div id="html_9af9eb204146482cac89066266264d0c" style="width: 100.0%; height: 100.0%;">Hungary<br> Electro-Oxygen Ltd.<br> <a href=http://www.eo.hu/>Website</a></div>`)[0];
+                popup_4f9f1f0a45f74b5597db01a8ff92cc7c.setContent(html_9af9eb204146482cac89066266264d0c);
+            
+
+            marker_2f8f7d2c78f14424a750a74151f1ccca.bindPopup(popup_4f9f1f0a45f74b5597db01a8ff92cc7c)
+            ;
+
+            
+        
+    
+        var marker_4c8167e033304eb3b3a946c99e166771 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_40fd46cb3f5e4b288401fa6de58cd5ed = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4c8167e033304eb3b3a946c99e166771.setIcon(icon_40fd46cb3f5e4b288401fa6de58cd5ed);
+            
+    
+            var popup_a96783d3577c47e5aa0f2e90e6022b8c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_be848ec0478e4fe7a6c3f80345b1cc70 = $(`<div id="html_be848ec0478e4fe7a6c3f80345b1cc70" style="width: 100.0%; height: 100.0%;">Israel<br> Shani Tal Marketing Ltd.<br> <a href=nan>Website</a></div>`)[0];
+                popup_a96783d3577c47e5aa0f2e90e6022b8c.setContent(html_be848ec0478e4fe7a6c3f80345b1cc70);
+            
+
+            marker_4c8167e033304eb3b3a946c99e166771.bindPopup(popup_a96783d3577c47e5aa0f2e90e6022b8c)
+            ;
+
+            
+        
+    
+        var marker_e36c692268f844b7ac64216ae126d73c = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_f0c742dbb83b43e59eb79e1c6cf5a52c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e36c692268f844b7ac64216ae126d73c.setIcon(icon_f0c742dbb83b43e59eb79e1c6cf5a52c);
+            
+    
+            var popup_6fcc1d87066a421680f59f49a867494f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b825b81657b6460ea60854a7b7528f1b = $(`<div id="html_b825b81657b6460ea60854a7b7528f1b" style="width: 100.0%; height: 100.0%;">Italy<br> AIESI Hospital<br> <a href=https://www.aiesi.it/>Website</a></div>`)[0];
+                popup_6fcc1d87066a421680f59f49a867494f.setContent(html_b825b81657b6460ea60854a7b7528f1b);
+            
+
+            marker_e36c692268f844b7ac64216ae126d73c.bindPopup(popup_6fcc1d87066a421680f59f49a867494f)
+            ;
+
+            
+        
+    
+        var marker_5e5faf1223c94de5a3f99cc08477e7da = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_ba615726770645c38e708d9708da7afd = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5e5faf1223c94de5a3f99cc08477e7da.setIcon(icon_ba615726770645c38e708d9708da7afd);
+            
+    
+            var popup_0c1213c27bd4410cb4b0c4fa2a7144c1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0501434537544396af195c2e906bf093 = $(`<div id="html_0501434537544396af195c2e906bf093" style="width: 100.0%; height: 100.0%;">Italy<br> DMR SRL<br> <a href=https://www.dmrsrl.it/>Website</a></div>`)[0];
+                popup_0c1213c27bd4410cb4b0c4fa2a7144c1.setContent(html_0501434537544396af195c2e906bf093);
+            
+
+            marker_5e5faf1223c94de5a3f99cc08477e7da.bindPopup(popup_0c1213c27bd4410cb4b0c4fa2a7144c1)
+            ;
+
+            
+        
+    
+        var marker_e902f1a19a974aa1ab2a0f85ddd4a02c = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_e67f4b9b013a48b38b3786f2397898b3 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e902f1a19a974aa1ab2a0f85ddd4a02c.setIcon(icon_e67f4b9b013a48b38b3786f2397898b3);
+            
+    
+            var popup_aaa1360d64e44c25b7852479ab4bba1a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_29b4341c2dbe480d8885a4a64beea4c8 = $(`<div id="html_29b4341c2dbe480d8885a4a64beea4c8" style="width: 100.0%; height: 100.0%;">Italy<br> EFFEBI Hospital<br> <a href=http://www.effebihospital.com/en/company/>Website</a></div>`)[0];
+                popup_aaa1360d64e44c25b7852479ab4bba1a.setContent(html_29b4341c2dbe480d8885a4a64beea4c8);
+            
+
+            marker_e902f1a19a974aa1ab2a0f85ddd4a02c.bindPopup(popup_aaa1360d64e44c25b7852479ab4bba1a)
+            ;
+
+            
+        
+    
+        var marker_c4021b11443f4bb29223ed0ede22bc8d = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_f8320ed1a90b4d459c4c15b2a74be61d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c4021b11443f4bb29223ed0ede22bc8d.setIcon(icon_f8320ed1a90b4d459c4c15b2a74be61d);
+            
+    
+            var popup_6e70fc52858b4995a47299e74faf4b78 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2244c157922347de9affe301b924a8fc = $(`<div id="html_2244c157922347de9affe301b924a8fc" style="width: 100.0%; height: 100.0%;">Italy<br> Eurospital<br> <a href=http://www.eurospital.com/>Website</a></div>`)[0];
+                popup_6e70fc52858b4995a47299e74faf4b78.setContent(html_2244c157922347de9affe301b924a8fc);
+            
+
+            marker_c4021b11443f4bb29223ed0ede22bc8d.bindPopup(popup_6e70fc52858b4995a47299e74faf4b78)
+            ;
+
+            
+        
+    
+        var marker_ed09691e36a2442b9e941c2a774f125e = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_c7cead2f388f44a88d3c0c36b9bbcba8 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ed09691e36a2442b9e941c2a774f125e.setIcon(icon_c7cead2f388f44a88d3c0c36b9bbcba8);
+            
+    
+            var popup_a2153a11f1594bdf95332274fd82fceb = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a463dfb8f8114907b8b37d793e4e281b = $(`<div id="html_a463dfb8f8114907b8b37d793e4e281b" style="width: 100.0%; height: 100.0%;">Italy<br> KERNA SRL<br> <a href=http://news.kerna.it/>Website</a></div>`)[0];
+                popup_a2153a11f1594bdf95332274fd82fceb.setContent(html_a463dfb8f8114907b8b37d793e4e281b);
+            
+
+            marker_ed09691e36a2442b9e941c2a774f125e.bindPopup(popup_a2153a11f1594bdf95332274fd82fceb)
+            ;
+
+            
+        
+    
+        var marker_80260c32ee02412ea29ab7f408d04545 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_64c72fe2a41c4c22a558fcf8ebae86a5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_80260c32ee02412ea29ab7f408d04545.setIcon(icon_64c72fe2a41c4c22a558fcf8ebae86a5);
+            
+    
+            var popup_8156a6e3ac564b4fae0357339160becc = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c81c4c2b912d452aba28dd1b822c4220 = $(`<div id="html_c81c4c2b912d452aba28dd1b822c4220" style="width: 100.0%; height: 100.0%;">Italy<br> KNOW MEDICAL<br> <a href=http://www.knowmedical.com/>Website</a></div>`)[0];
+                popup_8156a6e3ac564b4fae0357339160becc.setContent(html_c81c4c2b912d452aba28dd1b822c4220);
+            
+
+            marker_80260c32ee02412ea29ab7f408d04545.bindPopup(popup_8156a6e3ac564b4fae0357339160becc)
+            ;
+
+            
+        
+    
+        var marker_bfc1a7b3533d46f7a28c75cd85a9bc9b = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_c9ed900429a94bf684bf63d5e9d6f4fd = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_bfc1a7b3533d46f7a28c75cd85a9bc9b.setIcon(icon_c9ed900429a94bf684bf63d5e9d6f4fd);
+            
+    
+            var popup_fb2e3eddaa444116a6ea7878bc804cea = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a70cbd93a3c846549bcdb61ad314ab32 = $(`<div id="html_a70cbd93a3c846549bcdb61ad314ab32" style="width: 100.0%; height: 100.0%;">Italy<br> M.C.T. Distribution Service<br> <a href=https://www.mctgt.it>Website</a></div>`)[0];
+                popup_fb2e3eddaa444116a6ea7878bc804cea.setContent(html_a70cbd93a3c846549bcdb61ad314ab32);
+            
+
+            marker_bfc1a7b3533d46f7a28c75cd85a9bc9b.bindPopup(popup_fb2e3eddaa444116a6ea7878bc804cea)
+            ;
+
+            
+        
+    
+        var marker_9f72dd9038c448f6a3e3256378cc6bf8 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_d6fba40378a8469dba33a2eadc7f6090 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9f72dd9038c448f6a3e3256378cc6bf8.setIcon(icon_d6fba40378a8469dba33a2eadc7f6090);
+            
+    
+            var popup_82e197ff8074445dad4c8cc034495c99 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_70d5c28a038f4a9f97ffa751475bcf32 = $(`<div id="html_70d5c28a038f4a9f97ffa751475bcf32" style="width: 100.0%; height: 100.0%;">Italy<br> Med-Italia Srl<br> <a href=http://www.meditalia.net/>Website</a></div>`)[0];
+                popup_82e197ff8074445dad4c8cc034495c99.setContent(html_70d5c28a038f4a9f97ffa751475bcf32);
+            
+
+            marker_9f72dd9038c448f6a3e3256378cc6bf8.bindPopup(popup_82e197ff8074445dad4c8cc034495c99)
+            ;
+
+            
+        
+    
+        var marker_a94c5fdc1f5b47a6962b0a4fc392d2ba = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_bbe922f5f0954cd4b2d800eb5a48344b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a94c5fdc1f5b47a6962b0a4fc392d2ba.setIcon(icon_bbe922f5f0954cd4b2d800eb5a48344b);
+            
+    
+            var popup_e07d5937f0254aaebbe282eb2e76ca51 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_86e94fc541234a0a9b9429e029fbdefc = $(`<div id="html_86e94fc541234a0a9b9429e029fbdefc" style="width: 100.0%; height: 100.0%;">Italy<br> Medical Device Srl<br> <a href=http://www.medicaldevice.it>Website</a></div>`)[0];
+                popup_e07d5937f0254aaebbe282eb2e76ca51.setContent(html_86e94fc541234a0a9b9429e029fbdefc);
+            
+
+            marker_a94c5fdc1f5b47a6962b0a4fc392d2ba.bindPopup(popup_e07d5937f0254aaebbe282eb2e76ca51)
+            ;
+
+            
+        
+    
+        var marker_dbceff4bfc4448e9b38ca17f2e0490a3 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_e66978e0144b427cb839b8a92d770d93 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_dbceff4bfc4448e9b38ca17f2e0490a3.setIcon(icon_e66978e0144b427cb839b8a92d770d93);
+            
+    
+            var popup_916c23b9768248caac075b8541691051 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_184a2a6a989749a2ba7d650f67a9a867 = $(`<div id="html_184a2a6a989749a2ba7d650f67a9a867" style="width: 100.0%; height: 100.0%;">Italy<br> Omnia Spa<br> <a href=https://www.omniaspa.eu/>Website</a></div>`)[0];
+                popup_916c23b9768248caac075b8541691051.setContent(html_184a2a6a989749a2ba7d650f67a9a867);
+            
+
+            marker_dbceff4bfc4448e9b38ca17f2e0490a3.bindPopup(popup_916c23b9768248caac075b8541691051)
+            ;
+
+            
+        
+    
+        var marker_9bf6af38337d43bb8d5470d0a9048ca1 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_1ea6b4f325684c0d98d15db099bd393f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9bf6af38337d43bb8d5470d0a9048ca1.setIcon(icon_1ea6b4f325684c0d98d15db099bd393f);
+            
+    
+            var popup_c2753674cf6646188e26d12126ca19cc = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ac5bde53fdb849cc80549cdcb9993ccd = $(`<div id="html_ac5bde53fdb849cc80549cdcb9993ccd" style="width: 100.0%; height: 100.0%;">Italy<br> RÄ±mos<br> <a href=https://www.rimos.com/>Website</a></div>`)[0];
+                popup_c2753674cf6646188e26d12126ca19cc.setContent(html_ac5bde53fdb849cc80549cdcb9993ccd);
+            
+
+            marker_9bf6af38337d43bb8d5470d0a9048ca1.bindPopup(popup_c2753674cf6646188e26d12126ca19cc)
+            ;
+
+            
+        
+    
+        var marker_3716d288e336467f8565e77707dba198 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_901e25b40cec494cac96e845c759f3b4 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3716d288e336467f8565e77707dba198.setIcon(icon_901e25b40cec494cac96e845c759f3b4);
+            
+    
+            var popup_0b4d1074b01841a1aacf2877bf613a62 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_25ce16dfc3194e1a8a8210b763d71daa = $(`<div id="html_25ce16dfc3194e1a8a8210b763d71daa" style="width: 100.0%; height: 100.0%;">Italy<br> U.JET Srl<br> <a href=http://www.ujet.it/>Website</a></div>`)[0];
+                popup_0b4d1074b01841a1aacf2877bf613a62.setContent(html_25ce16dfc3194e1a8a8210b763d71daa);
+            
+
+            marker_3716d288e336467f8565e77707dba198.bindPopup(popup_0b4d1074b01841a1aacf2877bf613a62)
+            ;
+
+            
+        
+    
+        var marker_057e698dd99347ef8859793e4a03e9bb = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_d7f8573a708e43d6995c594a9533bf49 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_057e698dd99347ef8859793e4a03e9bb.setIcon(icon_d7f8573a708e43d6995c594a9533bf49);
+            
+    
+            var popup_3e2d73cc65e14be2b40c834cbe3da462 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ce7f0c107d884c968a956a5675c11021 = $(`<div id="html_ce7f0c107d884c968a956a5675c11021" style="width: 100.0%; height: 100.0%;">Italy<br> Sipo Srl<br> <a href=http://www.siposrl.com/>Website</a></div>`)[0];
+                popup_3e2d73cc65e14be2b40c834cbe3da462.setContent(html_ce7f0c107d884c968a956a5675c11021);
+            
+
+            marker_057e698dd99347ef8859793e4a03e9bb.bindPopup(popup_3e2d73cc65e14be2b40c834cbe3da462)
+            ;
+
+            
+        
+    
+        var marker_2c6b6af45fda40b4a12e67cbd788e8e0 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_a1a311b796fd4431b0419ab809f80f84 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2c6b6af45fda40b4a12e67cbd788e8e0.setIcon(icon_a1a311b796fd4431b0419ab809f80f84);
+            
+    
+            var popup_0d16284324d84ae0bafc05096ccc3ed2 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_fd8adb7ca8f9451596a28ecf123bf961 = $(`<div id="html_fd8adb7ca8f9451596a28ecf123bf961" style="width: 100.0%; height: 100.0%;">Italy<br> 3C Endo-Technology<br> <a href=https://www.3cendo.it/>Website</a></div>`)[0];
+                popup_0d16284324d84ae0bafc05096ccc3ed2.setContent(html_fd8adb7ca8f9451596a28ecf123bf961);
+            
+
+            marker_2c6b6af45fda40b4a12e67cbd788e8e0.bindPopup(popup_0d16284324d84ae0bafc05096ccc3ed2)
+            ;
+
+            
+        
+    
+        var marker_12fd93863f1d4ee0a653917cb97002b2 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_361613d9152c4d2db92bc7fe77c54187 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_12fd93863f1d4ee0a653917cb97002b2.setIcon(icon_361613d9152c4d2db92bc7fe77c54187);
+            
+    
+            var popup_e11be6f5e0bb4aacaf60cc4243bc6715 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_210b7f777e21462192aef9e81308e7e6 = $(`<div id="html_210b7f777e21462192aef9e81308e7e6" style="width: 100.0%; height: 100.0%;">Italy<br> Cam Hospital<br> <a href=http://www.camhospital.it/>Website</a></div>`)[0];
+                popup_e11be6f5e0bb4aacaf60cc4243bc6715.setContent(html_210b7f777e21462192aef9e81308e7e6);
+            
+
+            marker_12fd93863f1d4ee0a653917cb97002b2.bindPopup(popup_e11be6f5e0bb4aacaf60cc4243bc6715)
+            ;
+
+            
+        
+    
+        var marker_c7f198c3ad254bcfacf34af8a6c6f0a8 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_1c179439716445a5b2fdfddaa112a829 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c7f198c3ad254bcfacf34af8a6c6f0a8.setIcon(icon_1c179439716445a5b2fdfddaa112a829);
+            
+    
+            var popup_40672fbab9a74cb2b5f2e67360156639 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_25ee1aa67571449185135b75b17a7231 = $(`<div id="html_25ee1aa67571449185135b75b17a7231" style="width: 100.0%; height: 100.0%;">Latvia<br> A. Medical<br> <a href=0>Website</a></div>`)[0];
+                popup_40672fbab9a74cb2b5f2e67360156639.setContent(html_25ee1aa67571449185135b75b17a7231);
+            
+
+            marker_c7f198c3ad254bcfacf34af8a6c6f0a8.bindPopup(popup_40672fbab9a74cb2b5f2e67360156639)
+            ;
+
+            
+        
+    
+        var marker_1f07283555fc4099b0f61a3537fa7ab3 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_cb189adee1054d0f8c381309bf7602cf = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1f07283555fc4099b0f61a3537fa7ab3.setIcon(icon_cb189adee1054d0f8c381309bf7602cf);
+            
+    
+            var popup_519fe3eacc9745b98884ac1b275fe025 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_df3269a4323c4b29aa6a923c6898ee01 = $(`<div id="html_df3269a4323c4b29aa6a923c6898ee01" style="width: 100.0%; height: 100.0%;">Latvia<br> Arbor Medical Korporacija<br> <a href=https://arbor.lv/lv>Website</a></div>`)[0];
+                popup_519fe3eacc9745b98884ac1b275fe025.setContent(html_df3269a4323c4b29aa6a923c6898ee01);
+            
+
+            marker_1f07283555fc4099b0f61a3537fa7ab3.bindPopup(popup_519fe3eacc9745b98884ac1b275fe025)
+            ;
+
+            
+        
+    
+        var marker_e94ee008c62c41898213ae3d384fd7f1 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_cf2175b751684a198d0cfc26d825bf64 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e94ee008c62c41898213ae3d384fd7f1.setIcon(icon_cf2175b751684a198d0cfc26d825bf64);
+            
+    
+            var popup_09f8d8b7c63f41a3b30969c26b4dd153 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f66252c21fbb499883879e455739c2b5 = $(`<div id="html_f66252c21fbb499883879e455739c2b5" style="width: 100.0%; height: 100.0%;">Latvia<br> DM Premium<br> <a href=http://www.dmpremium.com/>Website</a></div>`)[0];
+                popup_09f8d8b7c63f41a3b30969c26b4dd153.setContent(html_f66252c21fbb499883879e455739c2b5);
+            
+
+            marker_e94ee008c62c41898213ae3d384fd7f1.bindPopup(popup_09f8d8b7c63f41a3b30969c26b4dd153)
+            ;
+
+            
+        
+    
+        var marker_5271dc7c5d304bc7831326df873e3a18 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_f71af323524a4656afb80476c03df707 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5271dc7c5d304bc7831326df873e3a18.setIcon(icon_f71af323524a4656afb80476c03df707);
+            
+    
+            var popup_3456df6bb70443e780942d3c00ba32f0 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b82bb43b44da4d6e9c33b6787cda5573 = $(`<div id="html_b82bb43b44da4d6e9c33b6787cda5573" style="width: 100.0%; height: 100.0%;">Latvia<br> Elvim<br> <a href=http://www.elvim.lv/en/>Website</a></div>`)[0];
+                popup_3456df6bb70443e780942d3c00ba32f0.setContent(html_b82bb43b44da4d6e9c33b6787cda5573);
+            
+
+            marker_5271dc7c5d304bc7831326df873e3a18.bindPopup(popup_3456df6bb70443e780942d3c00ba32f0)
+            ;
+
+            
+        
+    
+        var marker_df31404f471d449b91f71ef87b8d3b99 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_46a5713fed644897b3bffc324aa2fd68 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_df31404f471d449b91f71ef87b8d3b99.setIcon(icon_46a5713fed644897b3bffc324aa2fd68);
+            
+    
+            var popup_e8e36cdce566441c901f29d7f4d61c71 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b69d6f934bd0487f81b73a3d737db3ac = $(`<div id="html_b69d6f934bd0487f81b73a3d737db3ac" style="width: 100.0%; height: 100.0%;">Latvia<br> Medeksperts<br> <a href=http://www.medeksperts.lv/index.html>Website</a></div>`)[0];
+                popup_e8e36cdce566441c901f29d7f4d61c71.setContent(html_b69d6f934bd0487f81b73a3d737db3ac);
+            
+
+            marker_df31404f471d449b91f71ef87b8d3b99.bindPopup(popup_e8e36cdce566441c901f29d7f4d61c71)
+            ;
+
+            
+        
+    
+        var marker_87c5e4a9328f438b9e758cb86f29b0fe = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_496db3d13b1647f2a346e376d675b548 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_87c5e4a9328f438b9e758cb86f29b0fe.setIcon(icon_496db3d13b1647f2a346e376d675b548);
+            
+    
+            var popup_32e8b015b6664ade9c79f940d3901b3b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5c295dd09da940a29099c18bbeca1c32 = $(`<div id="html_5c295dd09da940a29099c18bbeca1c32" style="width: 100.0%; height: 100.0%;">Latvia<br> Medika GN<br> <a href=0>Website</a></div>`)[0];
+                popup_32e8b015b6664ade9c79f940d3901b3b.setContent(html_5c295dd09da940a29099c18bbeca1c32);
+            
+
+            marker_87c5e4a9328f438b9e758cb86f29b0fe.bindPopup(popup_32e8b015b6664ade9c79f940d3901b3b)
+            ;
+
+            
+        
+    
+        var marker_e4fa32d2390745ca9ee6a217387191ac = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_1e30d85cf48946dd8ac1b9c2d3cf8094 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e4fa32d2390745ca9ee6a217387191ac.setIcon(icon_1e30d85cf48946dd8ac1b9c2d3cf8094);
+            
+    
+            var popup_cca05a545e7d41f1b36cb82a4840fab4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b243bd0f0ca7473e85de1479bce5ae4c = $(`<div id="html_b243bd0f0ca7473e85de1479bce5ae4c" style="width: 100.0%; height: 100.0%;">Latvia<br> Medilink<br> <a href=http://www.medilink.lv/>Website</a></div>`)[0];
+                popup_cca05a545e7d41f1b36cb82a4840fab4.setContent(html_b243bd0f0ca7473e85de1479bce5ae4c);
+            
+
+            marker_e4fa32d2390745ca9ee6a217387191ac.bindPopup(popup_cca05a545e7d41f1b36cb82a4840fab4)
+            ;
+
+            
+        
+    
+        var marker_1e309c6216814604bacc2c4e1588e31b = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_d20b1cc2704d4e418413f9d45b96c8e9 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1e309c6216814604bacc2c4e1588e31b.setIcon(icon_d20b1cc2704d4e418413f9d45b96c8e9);
+            
+    
+            var popup_bbccd6cb34da493e9dbf15e655b04034 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8394d11e8667427080245c5594091edd = $(`<div id="html_8394d11e8667427080245c5594091edd" style="width: 100.0%; height: 100.0%;">Latvia<br> Mediq Latvija<br> <a href=https://www.mediq.lv/>Website</a></div>`)[0];
+                popup_bbccd6cb34da493e9dbf15e655b04034.setContent(html_8394d11e8667427080245c5594091edd);
+            
+
+            marker_1e309c6216814604bacc2c4e1588e31b.bindPopup(popup_bbccd6cb34da493e9dbf15e655b04034)
+            ;
+
+            
+        
+    
+        var marker_08866ba0809e4264820b5999149d727c = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_08c6a0dc5dfe4c46bc2df545bfea9d48 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_08866ba0809e4264820b5999149d727c.setIcon(icon_08c6a0dc5dfe4c46bc2df545bfea9d48);
+            
+    
+            var popup_272077a1eb5b4794acd1261f76cb3c97 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b175e288cd0b423c9b3299d4981821ca = $(`<div id="html_b175e288cd0b423c9b3299d4981821ca" style="width: 100.0%; height: 100.0%;">Latvia<br> R.A.L.<br> <a href=http://www.ral.lv/>Website</a></div>`)[0];
+                popup_272077a1eb5b4794acd1261f76cb3c97.setContent(html_b175e288cd0b423c9b3299d4981821ca);
+            
+
+            marker_08866ba0809e4264820b5999149d727c.bindPopup(popup_272077a1eb5b4794acd1261f76cb3c97)
+            ;
+
+            
+        
+    
+        var marker_d00b878d757a4efcb3253782451c6f0c = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_d9568ff6e950482f99be59a4e6a1be80 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d00b878d757a4efcb3253782451c6f0c.setIcon(icon_d9568ff6e950482f99be59a4e6a1be80);
+            
+    
+            var popup_71921f27655a438fbe4b914032a11728 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4416d0f74db14ef78b06cc4ca8d9ef15 = $(`<div id="html_4416d0f74db14ef78b06cc4ca8d9ef15" style="width: 100.0%; height: 100.0%;">Latvia<br> Remedine<br> <a href=http://www.remedine.lv/>Website</a></div>`)[0];
+                popup_71921f27655a438fbe4b914032a11728.setContent(html_4416d0f74db14ef78b06cc4ca8d9ef15);
+            
+
+            marker_d00b878d757a4efcb3253782451c6f0c.bindPopup(popup_71921f27655a438fbe4b914032a11728)
+            ;
+
+            
+        
+    
+        var marker_c3751107d891426895ddbf080eefd54e = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_112fe90b7e2a4a45aeb996a11f1844d3 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c3751107d891426895ddbf080eefd54e.setIcon(icon_112fe90b7e2a4a45aeb996a11f1844d3);
+            
+    
+            var popup_3b42ff3cb7ac42ac91b351726afbadc1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c12974c3f61d405bbcdd43d28eb24876 = $(`<div id="html_c12974c3f61d405bbcdd43d28eb24876" style="width: 100.0%; height: 100.0%;">Latvia<br> TZMO Latvija<br> <a href=https://tzmo.lv/lv_LV>Website</a></div>`)[0];
+                popup_3b42ff3cb7ac42ac91b351726afbadc1.setContent(html_c12974c3f61d405bbcdd43d28eb24876);
+            
+
+            marker_c3751107d891426895ddbf080eefd54e.bindPopup(popup_3b42ff3cb7ac42ac91b351726afbadc1)
+            ;
+
+            
+        
+    
+        var marker_2e60963a890b4d63b6e7bba31c4c0338 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_b6c0b87372d142f4a8bef759ea73fdeb = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2e60963a890b4d63b6e7bba31c4c0338.setIcon(icon_b6c0b87372d142f4a8bef759ea73fdeb);
+            
+    
+            var popup_a3647c0184094aa3916c7064610214b8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d6fda2bcb2c94e5ca529a2b7f76a9eb9 = $(`<div id="html_d6fda2bcb2c94e5ca529a2b7f76a9eb9" style="width: 100.0%; height: 100.0%;">Lithuania<br> Barameda<br> <a href=http://barameda.com/>Website</a></div>`)[0];
+                popup_a3647c0184094aa3916c7064610214b8.setContent(html_d6fda2bcb2c94e5ca529a2b7f76a9eb9);
+            
+
+            marker_2e60963a890b4d63b6e7bba31c4c0338.bindPopup(popup_a3647c0184094aa3916c7064610214b8)
+            ;
+
+            
+        
+    
+        var marker_6e558343310f4d07b32e0481f26cc0b9 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_6f46cc1033a941b7afe3fa977a68c607 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6e558343310f4d07b32e0481f26cc0b9.setIcon(icon_6f46cc1033a941b7afe3fa977a68c607);
+            
+    
+            var popup_d8210dbb513b427baab005c1c4b87915 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2f8edf9b4243452097fc5c00a654ba3e = $(`<div id="html_2f8edf9b4243452097fc5c00a654ba3e" style="width: 100.0%; height: 100.0%;">Lithuania<br> Evomeda<br> <a href=0>Website</a></div>`)[0];
+                popup_d8210dbb513b427baab005c1c4b87915.setContent(html_2f8edf9b4243452097fc5c00a654ba3e);
+            
+
+            marker_6e558343310f4d07b32e0481f26cc0b9.bindPopup(popup_d8210dbb513b427baab005c1c4b87915)
+            ;
+
+            
+        
+    
+        var marker_10a905a3b469434bae8cafa800c6e804 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_eea4c68c59d54b649231a6c514a8a367 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_10a905a3b469434bae8cafa800c6e804.setIcon(icon_eea4c68c59d54b649231a6c514a8a367);
+            
+    
+            var popup_f5dbe9824237406980899dd1c87970f8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_39c559df0329491db2fba1e1b581f862 = $(`<div id="html_39c559df0329491db2fba1e1b581f862" style="width: 100.0%; height: 100.0%;">Macedonia, the Former Yugoslav Republic of<br> Bi-Mek<br> <a href=http://www.bimek.com.mk>Website</a></div>`)[0];
+                popup_f5dbe9824237406980899dd1c87970f8.setContent(html_39c559df0329491db2fba1e1b581f862);
+            
+
+            marker_10a905a3b469434bae8cafa800c6e804.bindPopup(popup_f5dbe9824237406980899dd1c87970f8)
+            ;
+
+            
+        
+    
+        var marker_eb9301b70c3a43549d01b251f6e42300 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_523526f8119e4fd2a5011d08a65845cc = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_eb9301b70c3a43549d01b251f6e42300.setIcon(icon_523526f8119e4fd2a5011d08a65845cc);
+            
+    
+            var popup_3cccac271dde4c4da74da3dfe9b9656d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a42d29a1b0b24420a791ccc10a84081b = $(`<div id="html_a42d29a1b0b24420a791ccc10a84081b" style="width: 100.0%; height: 100.0%;">Macedonia, the Former Yugoslav Republic of<br> Komed<br> <a href=0>Website</a></div>`)[0];
+                popup_3cccac271dde4c4da74da3dfe9b9656d.setContent(html_a42d29a1b0b24420a791ccc10a84081b);
+            
+
+            marker_eb9301b70c3a43549d01b251f6e42300.bindPopup(popup_3cccac271dde4c4da74da3dfe9b9656d)
+            ;
+
+            
+        
+    
+        var marker_112a19cc26064ef6a84175ffa1a7e913 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_829b3b1f3a254c17811d97c1ef2a07cb = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_112a19cc26064ef6a84175ffa1a7e913.setIcon(icon_829b3b1f3a254c17811d97c1ef2a07cb);
+            
+    
+            var popup_00f842a3853146bbb6ce5acef478ae6a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1d3f7a209f5d418b84b49d33fdbe9419 = $(`<div id="html_1d3f7a209f5d418b84b49d33fdbe9419" style="width: 100.0%; height: 100.0%;">Macedonia, the Former Yugoslav Republic of<br> Sparta Medical<br> <a href=0>Website</a></div>`)[0];
+                popup_00f842a3853146bbb6ce5acef478ae6a.setContent(html_1d3f7a209f5d418b84b49d33fdbe9419);
+            
+
+            marker_112a19cc26064ef6a84175ffa1a7e913.bindPopup(popup_00f842a3853146bbb6ce5acef478ae6a)
+            ;
+
+            
+        
+    
+        var marker_ea980b2b9ac548e2a4eeecdfb0cf21d3 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_59425076ba4540508898d227204e93b3 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ea980b2b9ac548e2a4eeecdfb0cf21d3.setIcon(icon_59425076ba4540508898d227204e93b3);
+            
+    
+            var popup_140c1984d2f94f75ab5a32cd39ee5723 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6c781ff0c9184e1a842d27d1e0481528 = $(`<div id="html_6c781ff0c9184e1a842d27d1e0481528" style="width: 100.0%; height: 100.0%;">Macedonia, the Former Yugoslav Republic of<br> Adriamed (lab productrs)<br> <a href=http://www.adriamed.mk>Website</a></div>`)[0];
+                popup_140c1984d2f94f75ab5a32cd39ee5723.setContent(html_6c781ff0c9184e1a842d27d1e0481528);
+            
+
+            marker_ea980b2b9ac548e2a4eeecdfb0cf21d3.bindPopup(popup_140c1984d2f94f75ab5a32cd39ee5723)
+            ;
+
+            
+        
+    
+        var marker_191ef04a0ccf45e7884b39b8bf8209fe = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_9c854d4f9e9a48359f4977aadf6b0b39 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_191ef04a0ccf45e7884b39b8bf8209fe.setIcon(icon_9c854d4f9e9a48359f4977aadf6b0b39);
+            
+    
+            var popup_97711515afbd4f3c8c51b347c37e8f25 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_cd34e1ec4f9f487bbf6ecd099c073ff7 = $(`<div id="html_cd34e1ec4f9f487bbf6ecd099c073ff7" style="width: 100.0%; height: 100.0%;">Macedonia, the Former Yugoslav Republic of<br> Domino<br> <a href=http://www.domino.com.mk>Website</a></div>`)[0];
+                popup_97711515afbd4f3c8c51b347c37e8f25.setContent(html_cd34e1ec4f9f487bbf6ecd099c073ff7);
+            
+
+            marker_191ef04a0ccf45e7884b39b8bf8209fe.bindPopup(popup_97711515afbd4f3c8c51b347c37e8f25)
+            ;
+
+            
+        
+    
+        var marker_c1d7fee1113d4056ba12ddeca575e3ae = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_da575247f983464089f7f921f7402d0e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c1d7fee1113d4056ba12ddeca575e3ae.setIcon(icon_da575247f983464089f7f921f7402d0e);
+            
+    
+            var popup_49f00920bf0f42d7a324dff98325f21b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_238e57dd1a0f4972b9b3e5a882b3554f = $(`<div id="html_238e57dd1a0f4972b9b3e5a882b3554f" style="width: 100.0%; height: 100.0%;">Malta<br> Pharma-Cos<br> <a href=https://www.pharma-cos.com/>Website</a></div>`)[0];
+                popup_49f00920bf0f42d7a324dff98325f21b.setContent(html_238e57dd1a0f4972b9b3e5a882b3554f);
+            
+
+            marker_c1d7fee1113d4056ba12ddeca575e3ae.bindPopup(popup_49f00920bf0f42d7a324dff98325f21b)
+            ;
+
+            
+        
+    
+        var marker_de31688ce5bf42d0a5de027e9f310a26 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_3becad6aab234a14a82cb2cc51ed02be = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_de31688ce5bf42d0a5de027e9f310a26.setIcon(icon_3becad6aab234a14a82cb2cc51ed02be);
+            
+    
+            var popup_979fe19ba7174c38a53ffcc1be648154 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_289639ff1cf0462ba75434f7bb685a31 = $(`<div id="html_289639ff1cf0462ba75434f7bb685a31" style="width: 100.0%; height: 100.0%;">Netherlands<br> Sterisets International BV<br> <a href=0>Website</a></div>`)[0];
+                popup_979fe19ba7174c38a53ffcc1be648154.setContent(html_289639ff1cf0462ba75434f7bb685a31);
+            
+
+            marker_de31688ce5bf42d0a5de027e9f310a26.bindPopup(popup_979fe19ba7174c38a53ffcc1be648154)
+            ;
+
+            
+        
+    
+        var marker_7708a7c247a94de085bac62bed796b52 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_6e7a591c344148c2a282cfe5a8589508 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7708a7c247a94de085bac62bed796b52.setIcon(icon_6e7a591c344148c2a282cfe5a8589508);
+            
+    
+            var popup_efa4d5dae78348d3aea8398987661b3c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ffeadd2b9eb64162abdcae9c6ecdda56 = $(`<div id="html_ffeadd2b9eb64162abdcae9c6ecdda56" style="width: 100.0%; height: 100.0%;">Norway<br> BIRK NORDIC PHARMA CONSULTING AS<br> <a href=https://www.birk-npc.com/>Website</a></div>`)[0];
+                popup_efa4d5dae78348d3aea8398987661b3c.setContent(html_ffeadd2b9eb64162abdcae9c6ecdda56);
+            
+
+            marker_7708a7c247a94de085bac62bed796b52.bindPopup(popup_efa4d5dae78348d3aea8398987661b3c)
+            ;
+
+            
+        
+    
+        var marker_17d133535914493cb458d33e7f6ad0ce = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_cf8319e2bc204e83a7425ee1d304afae = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_17d133535914493cb458d33e7f6ad0ce.setIcon(icon_cf8319e2bc204e83a7425ee1d304afae);
+            
+    
+            var popup_ece1889ecb3949e6ad873486d844c9b9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_81c5b6469952401895dffcd7b33b7275 = $(`<div id="html_81c5b6469952401895dffcd7b33b7275" style="width: 100.0%; height: 100.0%;">Panama<br> Quirumedi SA<br> <a href=0>Website</a></div>`)[0];
+                popup_ece1889ecb3949e6ad873486d844c9b9.setContent(html_81c5b6469952401895dffcd7b33b7275);
+            
+
+            marker_17d133535914493cb458d33e7f6ad0ce.bindPopup(popup_ece1889ecb3949e6ad873486d844c9b9)
+            ;
+
+            
+        
+    
+        var marker_e8705f87557844069b8231e3152f6e83 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_8f49312fe5874698b91e3c7c5d8fe0bf = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e8705f87557844069b8231e3152f6e83.setIcon(icon_8f49312fe5874698b91e3c7c5d8fe0bf);
+            
+    
+            var popup_f18f0940ceaf4f1bbf23987a0693bf44 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5ea72c1ad6b642f8b92aede8751e7338 = $(`<div id="html_5ea72c1ad6b642f8b92aede8751e7338" style="width: 100.0%; height: 100.0%;">Peru<br> Prosemedic<br> <a href=www.prosemedic.com>Website</a></div>`)[0];
+                popup_f18f0940ceaf4f1bbf23987a0693bf44.setContent(html_5ea72c1ad6b642f8b92aede8751e7338);
+            
+
+            marker_e8705f87557844069b8231e3152f6e83.bindPopup(popup_f18f0940ceaf4f1bbf23987a0693bf44)
+            ;
+
+            
+        
+    
+        var marker_c9040e47e2b147998a27dc93f07c3ecb = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_7504ed918add42bab9e0d1d83eac5850 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c9040e47e2b147998a27dc93f07c3ecb.setIcon(icon_7504ed918add42bab9e0d1d83eac5850);
+            
+    
+            var popup_c4558642abed46339a7865bb18cc0d6b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0cb66b2df327475fb0d4962d0c3b2e86 = $(`<div id="html_0cb66b2df327475fb0d4962d0c3b2e86" style="width: 100.0%; height: 100.0%;">Poland<br> Arnomed<br> <a href=0>Website</a></div>`)[0];
+                popup_c4558642abed46339a7865bb18cc0d6b.setContent(html_0cb66b2df327475fb0d4962d0c3b2e86);
+            
+
+            marker_c9040e47e2b147998a27dc93f07c3ecb.bindPopup(popup_c4558642abed46339a7865bb18cc0d6b)
+            ;
+
+            
+        
+    
+        var marker_c18f7909063141d982da4bf03524a319 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_5c7982bf4eb44ea1abd632068090ebe7 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c18f7909063141d982da4bf03524a319.setIcon(icon_5c7982bf4eb44ea1abd632068090ebe7);
+            
+    
+            var popup_068fdca7748144d7b872d907178d0222 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b4e4aa44b23d4266bd86867bafbc78c6 = $(`<div id="html_b4e4aa44b23d4266bd86867bafbc78c6" style="width: 100.0%; height: 100.0%;">Poland<br> Bialmed<br> <a href=0>Website</a></div>`)[0];
+                popup_068fdca7748144d7b872d907178d0222.setContent(html_b4e4aa44b23d4266bd86867bafbc78c6);
+            
+
+            marker_c18f7909063141d982da4bf03524a319.bindPopup(popup_068fdca7748144d7b872d907178d0222)
+            ;
+
+            
+        
+    
+        var marker_cd67b7f930bd4d799713957a23b29fa2 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_3177b93d8ae94b1195de727d78508f68 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cd67b7f930bd4d799713957a23b29fa2.setIcon(icon_3177b93d8ae94b1195de727d78508f68);
+            
+    
+            var popup_54a24282f5fe47178786eb2e4b439da9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ee0890308c4544f8888f61568aedcfdb = $(`<div id="html_ee0890308c4544f8888f61568aedcfdb" style="width: 100.0%; height: 100.0%;">Poland<br> Cezal<br> <a href=0>Website</a></div>`)[0];
+                popup_54a24282f5fe47178786eb2e4b439da9.setContent(html_ee0890308c4544f8888f61568aedcfdb);
+            
+
+            marker_cd67b7f930bd4d799713957a23b29fa2.bindPopup(popup_54a24282f5fe47178786eb2e4b439da9)
+            ;
+
+            
+        
+    
+        var marker_33bf35243f664df8b093366b33d0bf47 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_8347ed905eae44ee81c2ebd106e440e5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_33bf35243f664df8b093366b33d0bf47.setIcon(icon_8347ed905eae44ee81c2ebd106e440e5);
+            
+    
+            var popup_c7c7b591b3724fee89e71ddc132043de = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_230f553ca7724fab98ec2631bb615448 = $(`<div id="html_230f553ca7724fab98ec2631bb615448" style="width: 100.0%; height: 100.0%;">Poland<br> Citonet<br> <a href=0>Website</a></div>`)[0];
+                popup_c7c7b591b3724fee89e71ddc132043de.setContent(html_230f553ca7724fab98ec2631bb615448);
+            
+
+            marker_33bf35243f664df8b093366b33d0bf47.bindPopup(popup_c7c7b591b3724fee89e71ddc132043de)
+            ;
+
+            
+        
+    
+        var marker_e4a1c54340aa49968b286e41e5399ec6 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_e9f13f3f41c94a70b78a7331ff58b965 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e4a1c54340aa49968b286e41e5399ec6.setIcon(icon_e9f13f3f41c94a70b78a7331ff58b965);
+            
+    
+            var popup_0a331c8f47da4ec0b778b2229ee70c9d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0591c56379f34350a08bce91d5ad5d85 = $(`<div id="html_0591c56379f34350a08bce91d5ad5d85" style="width: 100.0%; height: 100.0%;">Poland<br> Impomed<br> <a href=0>Website</a></div>`)[0];
+                popup_0a331c8f47da4ec0b778b2229ee70c9d.setContent(html_0591c56379f34350a08bce91d5ad5d85);
+            
+
+            marker_e4a1c54340aa49968b286e41e5399ec6.bindPopup(popup_0a331c8f47da4ec0b778b2229ee70c9d)
+            ;
+
+            
+        
+    
+        var marker_065dbf54b276417bbab95a7f7952a9d6 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_f4aacc550e2246f59cab40820f42aa76 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_065dbf54b276417bbab95a7f7952a9d6.setIcon(icon_f4aacc550e2246f59cab40820f42aa76);
+            
+    
+            var popup_988f16c752d44e14b8503454bf628779 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_13609053ddca40f6a2099dda4750ceee = $(`<div id="html_13609053ddca40f6a2099dda4750ceee" style="width: 100.0%; height: 100.0%;">Poland<br> Meditech<br> <a href=0>Website</a></div>`)[0];
+                popup_988f16c752d44e14b8503454bf628779.setContent(html_13609053ddca40f6a2099dda4750ceee);
+            
+
+            marker_065dbf54b276417bbab95a7f7952a9d6.bindPopup(popup_988f16c752d44e14b8503454bf628779)
+            ;
+
+            
+        
+    
+        var marker_a4b1d2052dd04f778318357d0aac137d = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_0c30bc3eee5f42a38fc6aacbe46d6479 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a4b1d2052dd04f778318357d0aac137d.setIcon(icon_0c30bc3eee5f42a38fc6aacbe46d6479);
+            
+    
+            var popup_2ac3131ffc61417299e67728d311cb5e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a5a8972f00224da49aa452820c867f9e = $(`<div id="html_a5a8972f00224da49aa452820c867f9e" style="width: 100.0%; height: 100.0%;">Poland<br> Molnycke<br> <a href=0>Website</a></div>`)[0];
+                popup_2ac3131ffc61417299e67728d311cb5e.setContent(html_a5a8972f00224da49aa452820c867f9e);
+            
+
+            marker_a4b1d2052dd04f778318357d0aac137d.bindPopup(popup_2ac3131ffc61417299e67728d311cb5e)
+            ;
+
+            
+        
+    
+        var marker_fd85bcf3b7164d749cf00981cd2ed265 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_6ef8df082c0a467d958bc29230401952 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fd85bcf3b7164d749cf00981cd2ed265.setIcon(icon_6ef8df082c0a467d958bc29230401952);
+            
+    
+            var popup_3c6779c8452b4c169d1f3e15a4ea9fd4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_dc3c33f1ef4746e7b4433fb5c02ed7d1 = $(`<div id="html_dc3c33f1ef4746e7b4433fb5c02ed7d1" style="width: 100.0%; height: 100.0%;">Poland<br> Qualitypack<br> <a href=0>Website</a></div>`)[0];
+                popup_3c6779c8452b4c169d1f3e15a4ea9fd4.setContent(html_dc3c33f1ef4746e7b4433fb5c02ed7d1);
+            
+
+            marker_fd85bcf3b7164d749cf00981cd2ed265.bindPopup(popup_3c6779c8452b4c169d1f3e15a4ea9fd4)
+            ;
+
+            
+        
+    
+        var marker_510b0f42dcde4b39a7dae59706c36379 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_f741dcad8de74481998ded386450ff70 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_510b0f42dcde4b39a7dae59706c36379.setIcon(icon_f741dcad8de74481998ded386450ff70);
+            
+    
+            var popup_ad5539d1d0dd444bbde92f7a078660e4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_01bf98ec5ff248ebbafbaa33f20cc9ae = $(`<div id="html_01bf98ec5ff248ebbafbaa33f20cc9ae" style="width: 100.0%; height: 100.0%;">Poland<br> Skamex<br> <a href=0>Website</a></div>`)[0];
+                popup_ad5539d1d0dd444bbde92f7a078660e4.setContent(html_01bf98ec5ff248ebbafbaa33f20cc9ae);
+            
+
+            marker_510b0f42dcde4b39a7dae59706c36379.bindPopup(popup_ad5539d1d0dd444bbde92f7a078660e4)
+            ;
+
+            
+        
+    
+        var marker_264086c512d24a848b826777da4d07cc = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_5b750009099341dd9a440d4f7cfda126 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_264086c512d24a848b826777da4d07cc.setIcon(icon_5b750009099341dd9a440d4f7cfda126);
+            
+    
+            var popup_de7044a0de22422baece598547a39fd8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7589c728fa1d4f5abb98c541902250be = $(`<div id="html_7589c728fa1d4f5abb98c541902250be" style="width: 100.0%; height: 100.0%;">Poland<br> Winkler<br> <a href=0>Website</a></div>`)[0];
+                popup_de7044a0de22422baece598547a39fd8.setContent(html_7589c728fa1d4f5abb98c541902250be);
+            
+
+            marker_264086c512d24a848b826777da4d07cc.bindPopup(popup_de7044a0de22422baece598547a39fd8)
+            ;
+
+            
+        
+    
+        var marker_3fad049314634885bd028c8278e1a72a = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_838b055613614ae8b5a5995fb007edbe = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3fad049314634885bd028c8278e1a72a.setIcon(icon_838b055613614ae8b5a5995fb007edbe);
+            
+    
+            var popup_4a58ff6871734c05a4a395961c06cf78 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_550216dbe823451fad2967c9bcd57a7d = $(`<div id="html_550216dbe823451fad2967c9bcd57a7d" style="width: 100.0%; height: 100.0%;">Poland<br> Mercator Medical SA<br> <a href=0>Website</a></div>`)[0];
+                popup_4a58ff6871734c05a4a395961c06cf78.setContent(html_550216dbe823451fad2967c9bcd57a7d);
+            
+
+            marker_3fad049314634885bd028c8278e1a72a.bindPopup(popup_4a58ff6871734c05a4a395961c06cf78)
+            ;
+
+            
+        
+    
+        var marker_527f63a7dcf446aca750edd944938b31 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_ec010c811b354232866a392ed6c9db3f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_527f63a7dcf446aca750edd944938b31.setIcon(icon_ec010c811b354232866a392ed6c9db3f);
+            
+    
+            var popup_42449ba0058f4a629b1097d6a463e547 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f60cd22a09cc45eea71d8fa29505ead1 = $(`<div id="html_f60cd22a09cc45eea71d8fa29505ead1" style="width: 100.0%; height: 100.0%;">Portugal<br> Aviquimica<br> <a href=www.aviquimica.pt>Website</a></div>`)[0];
+                popup_42449ba0058f4a629b1097d6a463e547.setContent(html_f60cd22a09cc45eea71d8fa29505ead1);
+            
+
+            marker_527f63a7dcf446aca750edd944938b31.bindPopup(popup_42449ba0058f4a629b1097d6a463e547)
+            ;
+
+            
+        
+    
+        var marker_09046192733c48ac9c690d151465718c = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_a45f45581178489882f2829e6cb85d9b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_09046192733c48ac9c690d151465718c.setIcon(icon_a45f45581178489882f2829e6cb85d9b);
+            
+    
+            var popup_d46f7d1a28124f49a1f43f8a894a74cd = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8035e748d78d4031b4ad38e4d57b5522 = $(`<div id="html_8035e748d78d4031b4ad38e4d57b5522" style="width: 100.0%; height: 100.0%;">Serbia<br> Galen-Fokus<br> <a href=0>Website</a></div>`)[0];
+                popup_d46f7d1a28124f49a1f43f8a894a74cd.setContent(html_8035e748d78d4031b4ad38e4d57b5522);
+            
+
+            marker_09046192733c48ac9c690d151465718c.bindPopup(popup_d46f7d1a28124f49a1f43f8a894a74cd)
+            ;
+
+            
+        
+    
+        var marker_108e1b4fcdbe47268b339c7f6166bc36 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_18aca0f3ce48408599e898b9ae4c4c51 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_108e1b4fcdbe47268b339c7f6166bc36.setIcon(icon_18aca0f3ce48408599e898b9ae4c4c51);
+            
+    
+            var popup_c5ceaa07726e4febbbe9012f1b4b5351 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f070d09c7108437491202afeea07234e = $(`<div id="html_f070d09c7108437491202afeea07234e" style="width: 100.0%; height: 100.0%;">Serbia<br> SN Medic<br> <a href=http://snmedic.com/>Website</a></div>`)[0];
+                popup_c5ceaa07726e4febbbe9012f1b4b5351.setContent(html_f070d09c7108437491202afeea07234e);
+            
+
+            marker_108e1b4fcdbe47268b339c7f6166bc36.bindPopup(popup_c5ceaa07726e4febbbe9012f1b4b5351)
+            ;
+
+            
+        
+    
+        var marker_e4f01a76604b44c483e2fb7d86e097db = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_7dbcc64401a845c2b10ae8ed16a2bedf = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e4f01a76604b44c483e2fb7d86e097db.setIcon(icon_7dbcc64401a845c2b10ae8ed16a2bedf);
+            
+    
+            var popup_3e6537587f1342bc9dfda1df8d761dfb = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f028d2a7ba4844598dc5312a61973e6d = $(`<div id="html_f028d2a7ba4844598dc5312a61973e6d" style="width: 100.0%; height: 100.0%;">Slovakia<br> Timed s.r.o.<br> <a href=http://www.timed.sk/>Website</a></div>`)[0];
+                popup_3e6537587f1342bc9dfda1df8d761dfb.setContent(html_f028d2a7ba4844598dc5312a61973e6d);
+            
+
+            marker_e4f01a76604b44c483e2fb7d86e097db.bindPopup(popup_3e6537587f1342bc9dfda1df8d761dfb)
+            ;
+
+            
+        
+    
+        var marker_d91a318cd7c249dcb9939c7f205aceb0 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_87df4f0b90da443783fb3eae484e5884 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d91a318cd7c249dcb9939c7f205aceb0.setIcon(icon_87df4f0b90da443783fb3eae484e5884);
+            
+    
+            var popup_27a9a56429e54baa88488ff5651558b8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e88ea9079b26454cb3a033096aab79bc = $(`<div id="html_e88ea9079b26454cb3a033096aab79bc" style="width: 100.0%; height: 100.0%;">Slovakia<br> Medical Group SK<br> <a href=http://www.medicalgroupsk.sk/>Website</a></div>`)[0];
+                popup_27a9a56429e54baa88488ff5651558b8.setContent(html_e88ea9079b26454cb3a033096aab79bc);
+            
+
+            marker_d91a318cd7c249dcb9939c7f205aceb0.bindPopup(popup_27a9a56429e54baa88488ff5651558b8)
+            ;
+
+            
+        
+    
+        var marker_1b5af92cbb8a4562973e4080c1a9b86d = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_fe670bc3cadd43ec8b64272a72a667b1 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1b5af92cbb8a4562973e4080c1a9b86d.setIcon(icon_fe670bc3cadd43ec8b64272a72a667b1);
+            
+    
+            var popup_843925f4077940958ae876e8f9c6ea5d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_74ec562da2cd4d0db9498aa0d73c7cd2 = $(`<div id="html_74ec562da2cd4d0db9498aa0d73c7cd2" style="width: 100.0%; height: 100.0%;">Slovakia<br> S.A.B. Impex<br> <a href=https://www.sab-medical.com/en/katalog?sort=9&itemsPerPage=9>Website</a></div>`)[0];
+                popup_843925f4077940958ae876e8f9c6ea5d.setContent(html_74ec562da2cd4d0db9498aa0d73c7cd2);
+            
+
+            marker_1b5af92cbb8a4562973e4080c1a9b86d.bindPopup(popup_843925f4077940958ae876e8f9c6ea5d)
+            ;
+
+            
+        
+    
+        var marker_f472776be3de4774b2dd8ade9d98ea1b = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_fcdb74b434d94e529c00954a9780488a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f472776be3de4774b2dd8ade9d98ea1b.setIcon(icon_fcdb74b434d94e529c00954a9780488a);
+            
+    
+            var popup_3608635db1ba40909d0d72c829e4c97f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b46b126ceef5452d8571d1e9c518788e = $(`<div id="html_b46b126ceef5452d8571d1e9c518788e" style="width: 100.0%; height: 100.0%;">Spain<br> Codisa<br> <a href=http://www.codisa.com/>Website</a></div>`)[0];
+                popup_3608635db1ba40909d0d72c829e4c97f.setContent(html_b46b126ceef5452d8571d1e9c518788e);
+            
+
+            marker_f472776be3de4774b2dd8ade9d98ea1b.bindPopup(popup_3608635db1ba40909d0d72c829e4c97f)
+            ;
+
+            
+        
+    
+        var marker_ee5950ab102049b09075ce31f329a9c3 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_52e9e418fb3a4a2a96cad0e9cbd2d90f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ee5950ab102049b09075ce31f329a9c3.setIcon(icon_52e9e418fb3a4a2a96cad0e9cbd2d90f);
+            
+    
+            var popup_567761c0e3e543b6af502be2a5154278 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6b283d8bda4848c9a4aa5c9bcecb6494 = $(`<div id="html_6b283d8bda4848c9a4aa5c9bcecb6494" style="width: 100.0%; height: 100.0%;">Spain<br> Distrauma<br> <a href=0>Website</a></div>`)[0];
+                popup_567761c0e3e543b6af502be2a5154278.setContent(html_6b283d8bda4848c9a4aa5c9bcecb6494);
+            
+
+            marker_ee5950ab102049b09075ce31f329a9c3.bindPopup(popup_567761c0e3e543b6af502be2a5154278)
+            ;
+
+            
+        
+    
+        var marker_3d1eabe753f24cfab82f723a48e55059 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_c7649bbbcacf44e88998ce7e1e0789c3 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3d1eabe753f24cfab82f723a48e55059.setIcon(icon_c7649bbbcacf44e88998ce7e1e0789c3);
+            
+    
+            var popup_29726251500d4dd4b726066de708e531 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_880859f9f83e40dfab837d4595d4b3c9 = $(`<div id="html_880859f9f83e40dfab837d4595d4b3c9" style="width: 100.0%; height: 100.0%;">Spain<br> Grupo Indas<br> <a href=0>Website</a></div>`)[0];
+                popup_29726251500d4dd4b726066de708e531.setContent(html_880859f9f83e40dfab837d4595d4b3c9);
+            
+
+            marker_3d1eabe753f24cfab82f723a48e55059.bindPopup(popup_29726251500d4dd4b726066de708e531)
+            ;
+
+            
+        
+    
+        var marker_fe568d32151a426881aa78de05201e3d = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_4eb97550ce76409f83c69991505cfeb4 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fe568d32151a426881aa78de05201e3d.setIcon(icon_4eb97550ce76409f83c69991505cfeb4);
+            
+    
+            var popup_32b05686adad4f0697add551d4cab702 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_cc348775c7324a90a4d19338cda5e8b4 = $(`<div id="html_cc348775c7324a90a4d19338cda5e8b4" style="width: 100.0%; height: 100.0%;">Spain<br> hospital hispania<br> <a href=http://hospital-hispania.com/opencms/opencms/utilidades/contacto/>Website</a></div>`)[0];
+                popup_32b05686adad4f0697add551d4cab702.setContent(html_cc348775c7324a90a4d19338cda5e8b4);
+            
+
+            marker_fe568d32151a426881aa78de05201e3d.bindPopup(popup_32b05686adad4f0697add551d4cab702)
+            ;
+
+            
+        
+    
+        var marker_22c884d4146942b58210527e52cebf6b = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_48a7a1013b154520843280cfb6216e20 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_22c884d4146942b58210527e52cebf6b.setIcon(icon_48a7a1013b154520843280cfb6216e20);
+            
+    
+            var popup_797fb5766873407b888d526ccc6b5c48 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4726da18971a4abcab1e4b599457f86c = $(`<div id="html_4726da18971a4abcab1e4b599457f86c" style="width: 100.0%; height: 100.0%;">Spain<br> Izasa<br> <a href=http://www.izasahospital.com/>Website</a></div>`)[0];
+                popup_797fb5766873407b888d526ccc6b5c48.setContent(html_4726da18971a4abcab1e4b599457f86c);
+            
+
+            marker_22c884d4146942b58210527e52cebf6b.bindPopup(popup_797fb5766873407b888d526ccc6b5c48)
+            ;
+
+            
+        
+    
+        var marker_6627f01ed9db408081ce9cf8d1577eb2 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_36baf58890754e66a00a120384aac6b9 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6627f01ed9db408081ce9cf8d1577eb2.setIcon(icon_36baf58890754e66a00a120384aac6b9);
+            
+    
+            var popup_c4f8a800a9fe417993547168244df75b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4cf901f8108c4d29afb39b4b56def96f = $(`<div id="html_4cf901f8108c4d29afb39b4b56def96f" style="width: 100.0%; height: 100.0%;">Spain<br> Leleman<br> <a href=http://leleman.es/es/>Website</a></div>`)[0];
+                popup_c4f8a800a9fe417993547168244df75b.setContent(html_4cf901f8108c4d29afb39b4b56def96f);
+            
+
+            marker_6627f01ed9db408081ce9cf8d1577eb2.bindPopup(popup_c4f8a800a9fe417993547168244df75b)
+            ;
+
+            
+        
+    
+        var marker_42af10efac4b46b1915f62fef04bf5f5 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_247d5e1cf2b84567ac2462ebacb28ddf = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_42af10efac4b46b1915f62fef04bf5f5.setIcon(icon_247d5e1cf2b84567ac2462ebacb28ddf);
+            
+    
+            var popup_b06a9d260074406ba34f7b06b2e06509 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_714d1aea23164ab5ba0f08bbce02d80c = $(`<div id="html_714d1aea23164ab5ba0f08bbce02d80c" style="width: 100.0%; height: 100.0%;">Spain<br> Sanrosan<br> <a href=http://www.sanro.com/>Website</a></div>`)[0];
+                popup_b06a9d260074406ba34f7b06b2e06509.setContent(html_714d1aea23164ab5ba0f08bbce02d80c);
+            
+
+            marker_42af10efac4b46b1915f62fef04bf5f5.bindPopup(popup_b06a9d260074406ba34f7b06b2e06509)
+            ;
+
+            
+        
+    
+        var marker_4d90b0d7d7744350a11a3e03b4eb4031 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_71a3af79adc64507875d98ca40291201 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4d90b0d7d7744350a11a3e03b4eb4031.setIcon(icon_71a3af79adc64507875d98ca40291201);
+            
+    
+            var popup_87133762346d4ff8bf39e68c805b8833 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_62a156e9865d45bdb7fca858659a5451 = $(`<div id="html_62a156e9865d45bdb7fca858659a5451" style="width: 100.0%; height: 100.0%;">Spain<br> Sistemas TÃ©cnicos Endoscopicos<br> <a href=http://st-endoscopia.es/contacto>Website</a></div>`)[0];
+                popup_87133762346d4ff8bf39e68c805b8833.setContent(html_62a156e9865d45bdb7fca858659a5451);
+            
+
+            marker_4d90b0d7d7744350a11a3e03b4eb4031.bindPopup(popup_87133762346d4ff8bf39e68c805b8833)
+            ;
+
+            
+        
+    
+        var marker_6e3c47d8e33f4736a1c0f69dfe7bb1df = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_2b4347d3c0d74bd1967133f07af4f954 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6e3c47d8e33f4736a1c0f69dfe7bb1df.setIcon(icon_2b4347d3c0d74bd1967133f07af4f954);
+            
+    
+            var popup_8238577c3458450c9de243d8baa87d3a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d6ea36423019440b85aa118aa062200c = $(`<div id="html_d6ea36423019440b85aa118aa062200c" style="width: 100.0%; height: 100.0%;">Spain<br> Sumsamex<br> <a href=http://www.sumsanex.com/material-solo-uso-esterilizacion/>Website</a></div>`)[0];
+                popup_8238577c3458450c9de243d8baa87d3a.setContent(html_d6ea36423019440b85aa118aa062200c);
+            
+
+            marker_6e3c47d8e33f4736a1c0f69dfe7bb1df.bindPopup(popup_8238577c3458450c9de243d8baa87d3a)
+            ;
+
+            
+        
+    
+        var marker_caed872a372a49fc82c191ec4ea69462 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_9e1a02a423274108837ea48353cfa679 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_caed872a372a49fc82c191ec4ea69462.setIcon(icon_9e1a02a423274108837ea48353cfa679);
+            
+    
+            var popup_b4702a5c561a47eea8e0dee5a689c13b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b2f6718de02c43ae99efe02d9e87efff = $(`<div id="html_b2f6718de02c43ae99efe02d9e87efff" style="width: 100.0%; height: 100.0%;">Spain<br> MTW<br> <a href=https://de.mtw-endoskopie.com/>Website</a></div>`)[0];
+                popup_b4702a5c561a47eea8e0dee5a689c13b.setContent(html_b2f6718de02c43ae99efe02d9e87efff);
+            
+
+            marker_caed872a372a49fc82c191ec4ea69462.bindPopup(popup_b4702a5c561a47eea8e0dee5a689c13b)
+            ;
+
+            
+        
+    
+        var marker_f33c5e4a01a5408f9c0badb824ceea9b = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_1f3612585f884be69cf9da5aa4bd4e26 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f33c5e4a01a5408f9c0badb824ceea9b.setIcon(icon_1f3612585f884be69cf9da5aa4bd4e26);
+            
+    
+            var popup_cdb02e0b2e6b43cda0cbc94a792e7e0f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_bff804a0d25e4af2a1b7523eb440e4fc = $(`<div id="html_bff804a0d25e4af2a1b7523eb440e4fc" style="width: 100.0%; height: 100.0%;">Spain<br> Components Sanitaris Engloba<br> <a href=0>Website</a></div>`)[0];
+                popup_cdb02e0b2e6b43cda0cbc94a792e7e0f.setContent(html_bff804a0d25e4af2a1b7523eb440e4fc);
+            
+
+            marker_f33c5e4a01a5408f9c0badb824ceea9b.bindPopup(popup_cdb02e0b2e6b43cda0cbc94a792e7e0f)
+            ;
+
+            
+        
+    
+        var marker_e98d83548fd04a71b978130962625745 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_31b5d88b7486453ea4e249c7030683ad = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e98d83548fd04a71b978130962625745.setIcon(icon_31b5d88b7486453ea4e249c7030683ad);
+            
+    
+            var popup_00d818b743b64c329413cad1b82c6649 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_01e80f2a7dd346b99913444979b59855 = $(`<div id="html_01e80f2a7dd346b99913444979b59855" style="width: 100.0%; height: 100.0%;">Sweden<br> L&B Medical<br> <a href=http://www.lbmedical.se/>Website</a></div>`)[0];
+                popup_00d818b743b64c329413cad1b82c6649.setContent(html_01e80f2a7dd346b99913444979b59855);
+            
+
+            marker_e98d83548fd04a71b978130962625745.bindPopup(popup_00d818b743b64c329413cad1b82c6649)
+            ;
+
+            
+        
+    
+        var marker_a0aa75deb9064e4e9e737949a0346bb4 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_9caa657c73bd44c9b6b6c661ee016548 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a0aa75deb9064e4e9e737949a0346bb4.setIcon(icon_9caa657c73bd44c9b6b6c661ee016548);
+            
+    
+            var popup_3b0f53094f674ec5892d7740a257f620 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_424094e80dee46dbb05b18405b21baba = $(`<div id="html_424094e80dee46dbb05b18405b21baba" style="width: 100.0%; height: 100.0%;">Sweden<br> Onemed<br> <a href=0>Website</a></div>`)[0];
+                popup_3b0f53094f674ec5892d7740a257f620.setContent(html_424094e80dee46dbb05b18405b21baba);
+            
+
+            marker_a0aa75deb9064e4e9e737949a0346bb4.bindPopup(popup_3b0f53094f674ec5892d7740a257f620)
+            ;
+
+            
+        
+    
+        var marker_496778f5af014842a2fba72e0b34de9f = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_f33ceef9292042bd89790932472798fa = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_496778f5af014842a2fba72e0b34de9f.setIcon(icon_f33ceef9292042bd89790932472798fa);
+            
+    
+            var popup_27a17c97f7ef4e538fd5c94175b167ac = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a215fa64d1d5473bb7aaea4b2d8308da = $(`<div id="html_a215fa64d1d5473bb7aaea4b2d8308da" style="width: 100.0%; height: 100.0%;">Sweden<br> Vingmed<br> <a href=http://www.vingmed.se>Website</a></div>`)[0];
+                popup_27a17c97f7ef4e538fd5c94175b167ac.setContent(html_a215fa64d1d5473bb7aaea4b2d8308da);
+            
+
+            marker_496778f5af014842a2fba72e0b34de9f.bindPopup(popup_27a17c97f7ef4e538fd5c94175b167ac)
+            ;
+
+            
+        
+    
+        var marker_c8d04998d4cd4e9d94e376e704f537b2 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_13f09831185f4373baf641b31c0b336f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c8d04998d4cd4e9d94e376e704f537b2.setIcon(icon_13f09831185f4373baf641b31c0b336f);
+            
+    
+            var popup_f8077ba87b714b00aba98d55d91cb634 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_259d72b41b5c46f5934062a2bf94287e = $(`<div id="html_259d72b41b5c46f5934062a2bf94287e" style="width: 100.0%; height: 100.0%;">Sweden<br> Bactiguard<br> <a href=0>Website</a></div>`)[0];
+                popup_f8077ba87b714b00aba98d55d91cb634.setContent(html_259d72b41b5c46f5934062a2bf94287e);
+            
+
+            marker_c8d04998d4cd4e9d94e376e704f537b2.bindPopup(popup_f8077ba87b714b00aba98d55d91cb634)
+            ;
+
+            
+        
+    
+        var marker_31a98e55189f4d2bb0913e4a70c1c2de = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_f438e29d55c04e55b9ad269a7732eb2f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_31a98e55189f4d2bb0913e4a70c1c2de.setIcon(icon_f438e29d55c04e55b9ad269a7732eb2f);
+            
+    
+            var popup_08bef359ea8046c391e080a9027b6970 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6961d6e5f12449379535980532ba04f3 = $(`<div id="html_6961d6e5f12449379535980532ba04f3" style="width: 100.0%; height: 100.0%;">Sweden<br> Swereco<br> <a href=https://www.swereco.se/>Website</a></div>`)[0];
+                popup_08bef359ea8046c391e080a9027b6970.setContent(html_6961d6e5f12449379535980532ba04f3);
+            
+
+            marker_31a98e55189f4d2bb0913e4a70c1c2de.bindPopup(popup_08bef359ea8046c391e080a9027b6970)
+            ;
+
+            
+        
+    
+        var marker_96dabd8c004d48c793b2a70a6f753e59 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_c729b7fd92984f7898d6ac3a9de08e61 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_96dabd8c004d48c793b2a70a6f753e59.setIcon(icon_c729b7fd92984f7898d6ac3a9de08e61);
+            
+    
+            var popup_67fac701f7c44302b8899caf87cc6b14 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_04139425d9f3495fb4af06ec88876bca = $(`<div id="html_04139425d9f3495fb4af06ec88876bca" style="width: 100.0%; height: 100.0%;">Sweden<br> Gothia Medical<br> <a href=https://www.gothiamedical.se/sv/>Website</a></div>`)[0];
+                popup_67fac701f7c44302b8899caf87cc6b14.setContent(html_04139425d9f3495fb4af06ec88876bca);
+            
+
+            marker_96dabd8c004d48c793b2a70a6f753e59.bindPopup(popup_67fac701f7c44302b8899caf87cc6b14)
+            ;
+
+            
+        
+    
+        var marker_7097598c85b34eb3a1a9ad4d6cff8f77 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_7d88e85fae0d4bd9961f9bc5c63bf2f8 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7097598c85b34eb3a1a9ad4d6cff8f77.setIcon(icon_7d88e85fae0d4bd9961f9bc5c63bf2f8);
+            
+    
+            var popup_7c03b4284f1b457780a02aeaa8dfdaf9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_887a97e74223457c8b7ed9d9ec79261b = $(`<div id="html_887a97e74223457c8b7ed9d9ec79261b" style="width: 100.0%; height: 100.0%;">Sweden<br> Carumed<br> <a href=info@carumed.se>Website</a></div>`)[0];
+                popup_7c03b4284f1b457780a02aeaa8dfdaf9.setContent(html_887a97e74223457c8b7ed9d9ec79261b);
+            
+
+            marker_7097598c85b34eb3a1a9ad4d6cff8f77.bindPopup(popup_7c03b4284f1b457780a02aeaa8dfdaf9)
+            ;
+
+            
+        
+    
+        var marker_e29d1968534f43978d4de8de1412fc1a = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_64f0d965d03d4b638f5def1cc2615204 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e29d1968534f43978d4de8de1412fc1a.setIcon(icon_64f0d965d03d4b638f5def1cc2615204);
+            
+    
+            var popup_36b9dc999a004201b85696268dc638b9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d0d57c20b9af45c6a86fe9bdf42a756c = $(`<div id="html_d0d57c20b9af45c6a86fe9bdf42a756c" style="width: 100.0%; height: 100.0%;">Sweden<br> Codan Triplus AB<br> <a href=0>Website</a></div>`)[0];
+                popup_36b9dc999a004201b85696268dc638b9.setContent(html_d0d57c20b9af45c6a86fe9bdf42a756c);
+            
+
+            marker_e29d1968534f43978d4de8de1412fc1a.bindPopup(popup_36b9dc999a004201b85696268dc638b9)
+            ;
+
+            
+        
+    
+        var marker_c6d029510b634d7e82f640570f657fdd = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_eab3985e38534bdb9c972107fd943b17 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c6d029510b634d7e82f640570f657fdd.setIcon(icon_eab3985e38534bdb9c972107fd943b17);
+            
+    
+            var popup_16ce07be823a48b6a9160d62815ac256 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_184fa8a5ced34b3dacbc8b4e94176b7d = $(`<div id="html_184fa8a5ced34b3dacbc8b4e94176b7d" style="width: 100.0%; height: 100.0%;">Sweden<br> Mediel AB<br> <a href=0>Website</a></div>`)[0];
+                popup_16ce07be823a48b6a9160d62815ac256.setContent(html_184fa8a5ced34b3dacbc8b4e94176b7d);
+            
+
+            marker_c6d029510b634d7e82f640570f657fdd.bindPopup(popup_16ce07be823a48b6a9160d62815ac256)
+            ;
+
+            
+        
+    
+        var marker_4a072c07acf44598a0d2b93990fe4a39 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_bec25147860c4500ab098838835b1188 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4a072c07acf44598a0d2b93990fe4a39.setIcon(icon_bec25147860c4500ab098838835b1188);
+            
+    
+            var popup_1ce560f2f90b4ddab76ab3e2bc5b282e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ff8377c6326442e68eaa08d3475f6a4a = $(`<div id="html_ff8377c6326442e68eaa08d3475f6a4a" style="width: 100.0%; height: 100.0%;">Sweden<br> Mediplast AB<br> <a href=0>Website</a></div>`)[0];
+                popup_1ce560f2f90b4ddab76ab3e2bc5b282e.setContent(html_ff8377c6326442e68eaa08d3475f6a4a);
+            
+
+            marker_4a072c07acf44598a0d2b93990fe4a39.bindPopup(popup_1ce560f2f90b4ddab76ab3e2bc5b282e)
+            ;
+
+            
+        
+    
+        var marker_116ed2d51b88411c9fda443b037e9934 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_2ea6ad904edf411fafe37ab833b97fd8 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_116ed2d51b88411c9fda443b037e9934.setIcon(icon_2ea6ad904edf411fafe37ab833b97fd8);
+            
+    
+            var popup_b56ecbf0962846e1977f61db5deba491 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_75f0ef35475c4ad4992370fc78fb424f = $(`<div id="html_75f0ef35475c4ad4992370fc78fb424f" style="width: 100.0%; height: 100.0%;">United Kingdom<br> P3<br> <a href=0>Website</a></div>`)[0];
+                popup_b56ecbf0962846e1977f61db5deba491.setContent(html_75f0ef35475c4ad4992370fc78fb424f);
+            
+
+            marker_116ed2d51b88411c9fda443b037e9934.bindPopup(popup_b56ecbf0962846e1977f61db5deba491)
+            ;
+
+            
+        
+    
+        var marker_ee70132187474ab0a709858cc70644a8 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_ffea9885f6484c9b8ef4cefd276a83fd = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ee70132187474ab0a709858cc70644a8.setIcon(icon_ffea9885f6484c9b8ef4cefd276a83fd);
+            
+    
+            var popup_da08483796044c7098eaee3654ac48d2 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_50159187fc784ecd95da5652f166b79e = $(`<div id="html_50159187fc784ecd95da5652f166b79e" style="width: 100.0%; height: 100.0%;">United Kingdom<br> Purple Surgical<br> <a href=0>Website</a></div>`)[0];
+                popup_da08483796044c7098eaee3654ac48d2.setContent(html_50159187fc784ecd95da5652f166b79e);
+            
+
+            marker_ee70132187474ab0a709858cc70644a8.bindPopup(popup_da08483796044c7098eaee3654ac48d2)
+            ;
+
+            
+        
+    
+        var marker_8239bc95a6be47f08353c5169aa67074 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_1fe5bfba5fbd4ea08bd3e47cf4fa7aec = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8239bc95a6be47f08353c5169aa67074.setIcon(icon_1fe5bfba5fbd4ea08bd3e47cf4fa7aec);
+            
+    
+            var popup_00c48fc3d95f4dba827eff9092485c87 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_68f4ed9ce4754760a34683c761e09677 = $(`<div id="html_68f4ed9ce4754760a34683c761e09677" style="width: 100.0%; height: 100.0%;">Uruguay<br> Latinmed<br> <a href=www.latinmed.com.uy>Website</a></div>`)[0];
+                popup_00c48fc3d95f4dba827eff9092485c87.setContent(html_68f4ed9ce4754760a34683c761e09677);
+            
+
+            marker_8239bc95a6be47f08353c5169aa67074.bindPopup(popup_00c48fc3d95f4dba827eff9092485c87)
+            ;
+
+            
+        
+    
+        var marker_e154f56a0dd8412486c6007063b9cee1 = L.marker(
+            [0.0, 0.0],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_2234b86efe154b7183c6ab3de9157cd0);
+        
+    
+
+                var icon_46ab5f2cbe2e4cfe984384399633622a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e154f56a0dd8412486c6007063b9cee1.setIcon(icon_46ab5f2cbe2e4cfe984384399633622a);
+            
+    
+            var popup_53989adb6943421297f45cf8af10453c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f6919d488e5f41748db6eac7d1f4adf4 = $(`<div id="html_f6919d488e5f41748db6eac7d1f4adf4" style="width: 100.0%; height: 100.0%;">Venezuela, Bolivarian Republic of<br> Dynamics<br> <a href=0>Website</a></div>`)[0];
+                popup_53989adb6943421297f45cf8af10453c.setContent(html_f6919d488e5f41748db6eac7d1f4adf4);
+            
+
+            marker_e154f56a0dd8412486c6007063b9cee1.bindPopup(popup_53989adb6943421297f45cf8af10453c)
+            ;
+
+            
+        
+</script>
