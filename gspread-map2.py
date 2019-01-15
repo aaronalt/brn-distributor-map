@@ -17,7 +17,7 @@ csv = [list(x) for x in df.values]
 #organize data into array
 locations = []
 for location in csv:
-    coords = [location[0], location[1]]
+    coords = [location[0], location[1]]    
     try:
         locations.append({'company' : location[2], 'country' : location[3], 'products' : location[3], 'potential' : location[4], 'method' : location[13], 'hover': f"{location[3]}<br>{location[2]}", 'click': f"<a href={location[9]}>Website</a><br>{location[13]}<br>{location[14]}", 'coordinates' : coords})
     except SyntaxError:
